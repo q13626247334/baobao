@@ -1,0 +1,60 @@
+{
+  "version": "2.2.1",
+  "notes": "1. 新账号登录不再要求先填书名，登录后书架自动出现，点箭头选书即可\n2. 自动更新支持大安装包分块下载，为全自动更新铺路",
+  "sha256": "731e7830049bf1dc8d8cc77f00fccf37d2ba9a8ba168de09f1922c892e772cfb",
+  "size": 2810976,
+  "parts": [
+    {
+      "file": "update.z01",
+      "sha256": "731e7830049bf1dc8d8cc77f00fccf37d2ba9a8ba168de09f1922c892e772cfb",
+      "size": 2810976
+    }
+  ],
+  "removed": [],
+  "bridge": {
+    "sha256": "2de2531e2afd5f0f81e0b0e8e38e1200f7344d8266d342ebdb0234b287f9a97c",
+    "size": 124215871,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "0a56aac801c8b8fcd4754962d04b29340fe719009ffc1dca4e4cc28a3eb245d6",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "b670aed83d8e1953a7b0778c098c2861d11992f96c6878b789a6ac83d9c600cf",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "a324be687bdaf2fc15a25fd55d8ba00506cb93df6828b6f0915db13c9ad84921",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "d196e39969fc44284e088cb97c3275bcf43ed073b3ca97f8c7cdc1ddc7854183",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "05bef237b755436f54dd071618e89c28dd7fedd5584debfe33d554c81744f527",
+        "size": 6775359
+      }
+    ]
+  }
+}
