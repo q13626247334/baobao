@@ -1,23 +1,23 @@
 {
-  "version": "2.2.1",
-  "notes": "1. 新账号登录不再要求先填书名，登录后书架自动出现，点箭头选书即可\n2. 自动更新支持大安装包分块下载，为全自动更新铺路",
-  "sha256": "731e7830049bf1dc8d8cc77f00fccf37d2ba9a8ba168de09f1922c892e772cfb",
-  "size": 2810976,
+  "version": "2.2.2",
+  "notes": "",
+  "sha256": "8e044183f36779795f831d2392ef6d6d5a6e23d1648a7526fdb8da618c01acc8",
+  "size": 107524,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "731e7830049bf1dc8d8cc77f00fccf37d2ba9a8ba168de09f1922c892e772cfb",
-      "size": 2810976
+      "sha256": "8e044183f36779795f831d2392ef6d6d5a6e23d1648a7526fdb8da618c01acc8",
+      "size": 107524
     }
   ],
   "removed": [],
   "bridge": {
-    "sha256": "2de2531e2afd5f0f81e0b0e8e38e1200f7344d8266d342ebdb0234b287f9a97c",
-    "size": 124215871,
+    "sha256": "3549f1a7553ae70ff1bd57d46f203e23d5be18273d9c2edad66b72f23ef0db58",
+    "size": 124245647,
     "parts": [
       {
         "file": "bridge.z01",
-        "sha256": "0a56aac801c8b8fcd4754962d04b29340fe719009ffc1dca4e4cc28a3eb245d6",
+        "sha256": "16c42aca3a35e7a3741cd81e6cf67ca6aa24af79781f8d70182450ad894dbddd",
         "size": 16777216
       },
       {
@@ -37,23 +37,23 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "b670aed83d8e1953a7b0778c098c2861d11992f96c6878b789a6ac83d9c600cf",
+        "sha256": "10b5da130291f225e54ed3655d0d24be252c8dc3e921e0a4f8e0de02616ddc68",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "a324be687bdaf2fc15a25fd55d8ba00506cb93df6828b6f0915db13c9ad84921",
+        "sha256": "24a669bc2586aa677b434e372b655a2c0ce46af273b84b6225bb4ca0a75afcf4",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "d196e39969fc44284e088cb97c3275bcf43ed073b3ca97f8c7cdc1ddc7854183",
+        "sha256": "db2cb8585d94c83f4bb5dd7c758f53db05d7f45258253d5ba38a1e94cb749340",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "05bef237b755436f54dd071618e89c28dd7fedd5584debfe33d554c81744f527",
-        "size": 6775359
+        "sha256": "566505794656df60a9140d86937166c796405da7b48bf8c370adcca288d91f41",
+        "size": 6805135
       }
     ]
   }
