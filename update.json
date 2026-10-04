@@ -1,60 +1,14 @@
 {
   "version": "2.2.2",
-  "notes": "",
-  "sha256": "8e044183f36779795f831d2392ef6d6d5a6e23d1648a7526fdb8da618c01acc8",
-  "size": 107524,
+  "notes": "修复严重问题：换账号/换书后可能把别的书的章节发出去\n1. 章节夹改成「账号+书」专属文件夹，一本书一个小仓库，永不串书\n2. AI 写作自动存的章节进它自己那本书的夹子\n3. 没选「发布到」哪本书时直接拦截，绝不带病上路\n4. 换书后看板（库存/已发）立刻按新书重新统计\n5. 检测到老的共用章节夹可能混书时，发布前自动拦截提醒",
+  "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+  "size": 22,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "8e044183f36779795f831d2392ef6d6d5a6e23d1648a7526fdb8da618c01acc8",
-      "size": 107524
+      "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "size": 22
     }
   ],
-  "removed": [],
-  "bridge": {
-    "sha256": "3549f1a7553ae70ff1bd57d46f203e23d5be18273d9c2edad66b72f23ef0db58",
-    "size": 124245647,
-    "parts": [
-      {
-        "file": "bridge.z01",
-        "sha256": "16c42aca3a35e7a3741cd81e6cf67ca6aa24af79781f8d70182450ad894dbddd",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z02",
-        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z03",
-        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z04",
-        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z05",
-        "sha256": "10b5da130291f225e54ed3655d0d24be252c8dc3e921e0a4f8e0de02616ddc68",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z06",
-        "sha256": "24a669bc2586aa677b434e372b655a2c0ce46af273b84b6225bb4ca0a75afcf4",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z07",
-        "sha256": "db2cb8585d94c83f4bb5dd7c758f53db05d7f45258253d5ba38a1e94cb749340",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z08",
-        "sha256": "566505794656df60a9140d86937166c796405da7b48bf8c370adcca288d91f41",
-        "size": 6805135
-      }
-    ]
-  }
+  "removed": []
 }
