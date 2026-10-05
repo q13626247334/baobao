@@ -1,14 +1,60 @@
 {
   "version": "2.2.8",
   "notes": "2.2.8：自定义浏览器改为浏览…文件选择框，去掉手输路径",
-  "sha256": "afc3de92666786c6c3bef0e55318c0f1d95a33a5f55533bce70f8ce52190caf7",
-  "size": 128888,
+  "sha256": "b0f9dea08a72f1021f001930e6273891e0ba0b113204632190525c6b00a7babb",
+  "size": 4277827,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "afc3de92666786c6c3bef0e55318c0f1d95a33a5f55533bce70f8ce52190caf7",
-      "size": 128888
+      "sha256": "b0f9dea08a72f1021f001930e6273891e0ba0b113204632190525c6b00a7babb",
+      "size": 4277827
     }
   ],
-  "removed": []
+  "removed": [],
+  "bridge": {
+    "sha256": "55e8a379f19628896dcb01bfed95733f7d2c6e9bbc4e469e42199c33f141717b",
+    "size": 124108440,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "f4193ed1e5808c79c2620ddf19594f1b209069e57287a99c492030dfe2e95ac5",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "6fdc12286465434d52d48a4b26d89b107d16095339395c150e03f6e1144c4a9f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "134136a047095c24a68af44132cabb1bee0e0715bad42ff38b2d3f433c2549d6",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "76a02b456091b917746b4b18a618c05b2338bb359d479776f7c35384b84a3666",
+        "size": 6667928
+      }
+    ]
+  }
 }
