@@ -1,0 +1,38 @@
+{
+  "version": "1.11.0",
+  "zip": "snv.zip",
+  "zip_sha256": "e594e1f5782a650accd5f491f7da905f430e094f8848ff8b3e0767865e90ade4",
+  "zip_size": 85265177,
+  "parts": [
+    {
+      "file": "snv.z01",
+      "sha256": "397e03de5f63b2c6b4eb49301a2cb276da883493c293ec82b961bef6c4b91229",
+      "size": 16777216
+    },
+    {
+      "file": "snv.z02",
+      "sha256": "47bfaf6a6d673471bc161253be7c5e6b923d643d90e345c806f262a599922a8f",
+      "size": 16777216
+    },
+    {
+      "file": "snv.z03",
+      "sha256": "b3454f2f1ddb4e6fd6bc0f4bce6c276467ae2e6208d8ec23d5c2b1c7413f9299",
+      "size": 16777216
+    },
+    {
+      "file": "snv.z04",
+      "sha256": "e2cf8e4b604bbbfff607e74896faed2b8eb4d4ac4d99aa8c10aed083544a0977",
+      "size": 16777216
+    },
+    {
+      "file": "snv.z05",
+      "sha256": "35bd4ca87242f272583e76227cbad6b63400729b0ba3f0c45d3a12ab14d314e8",
+      "size": 16777216
+    },
+    {
+      "file": "snv.z06",
+      "sha256": "811d07c85849f39fce48c65084f95d57f93d028b8bea17b7e4ff47426f2a3c8b",
+      "size": 1379097
+    }
+  ]
+}
