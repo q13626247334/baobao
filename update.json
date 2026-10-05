@@ -1,60 +1,14 @@
 {
   "version": "2.2.6",
   "notes": "",
-  "sha256": "e70c82017fc979644452352ea13cbb5264674bbacd9ffd5c871c4891c8ec57c4",
-  "size": 4274645,
+  "sha256": "1e1f7d3141176372ffe730658f8199659d1b6148b8a5d222fa6a0abd6235f4c3",
+  "size": 117679,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "e70c82017fc979644452352ea13cbb5264674bbacd9ffd5c871c4891c8ec57c4",
-      "size": 4274645
+      "sha256": "1e1f7d3141176372ffe730658f8199659d1b6148b8a5d222fa6a0abd6235f4c3",
+      "size": 117679
     }
   ],
-  "removed": [],
-  "bridge": {
-    "sha256": "40026a60d5d805e3e3305f02069e78b1e9f59e06648d2ee1d7049f192eb66fc3",
-    "size": 124107832,
-    "parts": [
-      {
-        "file": "bridge.z01",
-        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z02",
-        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z03",
-        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z04",
-        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z05",
-        "sha256": "1dfcb7890dd6d213ceb771a9bdc49f4ec9625b4aaa5659c0a0b7260250fc9c00",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z06",
-        "sha256": "0fd8fe3712dc22fb1efa79397a2be0cedf140de4fe3792dbc9e3e33cb82d23f1",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z07",
-        "sha256": "4b0d1e782dad32216493ab8fa3368c67abf9f73302d059564eb468316279d8d1",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z08",
-        "sha256": "653ff363cdfe6569c143f46f4c3daee22d85bdc968552059374660b13ccea2b8",
-        "size": 6667320
-      }
-    ]
-  }
+  "removed": []
 }
