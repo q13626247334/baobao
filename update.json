@@ -1,19 +1,19 @@
 {
-  "version": "2.2.8",
-  "notes": "2.2.8：自定义浏览器改为浏览…文件选择框，去掉手输路径",
-  "sha256": "b0f9dea08a72f1021f001930e6273891e0ba0b113204632190525c6b00a7babb",
-  "size": 4277827,
+  "version": "2.2.9",
+  "notes": "内置全网书源引擎：首次使用自动下载（约80MB，只下一次），不再需要单独安装SoNovel；彻底根治'没找到全网书源引擎'报错；界面只显示'全网书源引擎'并标注开源出处",
+  "sha256": "f8f3c8bf50e661cf4c57885a98053a9547923560512bbde057d190d1e00d3b45",
+  "size": 4278128,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "b0f9dea08a72f1021f001930e6273891e0ba0b113204632190525c6b00a7babb",
-      "size": 4277827
+      "sha256": "f8f3c8bf50e661cf4c57885a98053a9547923560512bbde057d190d1e00d3b45",
+      "size": 4278128
     }
   ],
   "removed": [],
   "bridge": {
-    "sha256": "55e8a379f19628896dcb01bfed95733f7d2c6e9bbc4e469e42199c33f141717b",
-    "size": 124108440,
+    "sha256": "3d8b3f94fda7c389160c207ff252a0993f5e1d8366f1c202f984e46a5c6519ad",
+    "size": 124110831,
     "parts": [
       {
         "file": "bridge.z01",
@@ -37,23 +37,23 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "f4193ed1e5808c79c2620ddf19594f1b209069e57287a99c492030dfe2e95ac5",
+        "sha256": "fc321f3233ab02341f23b93e2b66d3e1822bb68b15b55c40a320380b27eeaa3e",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "6fdc12286465434d52d48a4b26d89b107d16095339395c150e03f6e1144c4a9f",
+        "sha256": "3c2fb3c2e15afe41c0dd179472080658d1fd3ef68e470e36e7823b8783f1df7b",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "134136a047095c24a68af44132cabb1bee0e0715bad42ff38b2d3f433c2549d6",
+        "sha256": "f6fd8c320b5e9680d0301bd20dcd295cc0c5a7f202dac0e4d0ccba740554015a",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "76a02b456091b917746b4b18a618c05b2338bb359d479776f7c35384b84a3666",
-        "size": 6667928
+        "sha256": "bdd713e576e65d9d396b913b41399cc3d4aa3a1e9f4d62cdb2f45e51aa7b385d",
+        "size": 6670319
       }
     ]
   }
