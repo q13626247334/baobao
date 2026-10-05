@@ -1,19 +1,19 @@
 {
-  "version": "2.2.5",
-  "notes": "🛠 2.2.5 小修复\n\nAI 写作去掉了「自选浏览器」：之前自己选浏览器容易选到软件驱动不了的，导致网页窗口弹不出来。现在固定用系统内置方式打开，点「打开智语页面」就行，更稳。\n\n（设置不会丢，打开后照常登录智语开跑）",
-  "sha256": "dd445bb3ef48139223a861ba5d2cfacd396a9d52d27c918f62958816405b294d",
-  "size": 4266980,
+  "version": "2.2.6",
+  "notes": "",
+  "sha256": "e70c82017fc979644452352ea13cbb5264674bbacd9ffd5c871c4891c8ec57c4",
+  "size": 4274645,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "dd445bb3ef48139223a861ba5d2cfacd396a9d52d27c918f62958816405b294d",
-      "size": 4266980
+      "sha256": "e70c82017fc979644452352ea13cbb5264674bbacd9ffd5c871c4891c8ec57c4",
+      "size": 4274645
     }
   ],
   "removed": [],
   "bridge": {
-    "sha256": "c1058cc79469a440811290a97a0ab730879ec8b115f47236847d510313939611",
-    "size": 124107686,
+    "sha256": "40026a60d5d805e3e3305f02069e78b1e9f59e06648d2ee1d7049f192eb66fc3",
+    "size": 124107832,
     "parts": [
       {
         "file": "bridge.z01",
@@ -37,23 +37,23 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "24507fe48fe6283a54b779f70e789da7e48193aecfc74bb59b3b64e67576ef79",
+        "sha256": "1dfcb7890dd6d213ceb771a9bdc49f4ec9625b4aaa5659c0a0b7260250fc9c00",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "0e91538668d96693e8a2abf3480c7229adf06570bbbf6b26ef970eaa6bc01c95",
+        "sha256": "0fd8fe3712dc22fb1efa79397a2be0cedf140de4fe3792dbc9e3e33cb82d23f1",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "7fa2c9178982139d464d77e0fda060149db1dd5664531692877c84a6ef922ce7",
+        "sha256": "4b0d1e782dad32216493ab8fa3368c67abf9f73302d059564eb468316279d8d1",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "44969351743968bfbd96fc7d3af2a158a82f2ec06b278bf013ae89817aa545b7",
-        "size": 6667174
+        "sha256": "653ff363cdfe6569c143f46f4c3daee22d85bdc968552059374660b13ccea2b8",
+        "size": 6667320
       }
     ]
   }
