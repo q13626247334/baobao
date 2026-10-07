@@ -1,60 +1,60 @@
 {
- "version": "2.4.2",
- "notes": "v2.4.2 更新内容（2026-10-07）\n\n🎀 更新再也不挡事啦\n· 点「立即更新」后改为后台下载，右下角小进度条看着就行，软件照常能用\n· 下载完弹 60 秒倒计时自动重启完成更新，点「取消」就稍后再说，不会强迫你马上重启\n\n😴 跑完全自动关机\n· AI 写作全部章节自然跑完后弹窗提醒，5 分钟不点取消就自动帮你关机，晚上挂机跑书安心睡觉\n· 不想要可以在「AI 写作 → 设置」里关掉「跑完全部章节后自动关机」\n\n📮 投稿编辑库更新\n· 按大家反馈补录了 27 位编辑（长篇 22 位 + 短篇 5 位），投稿前记得刷新编辑库\n\n📌 小提醒：上一版(v2.4.1)已经修好了误下发的账号数据问题，打开软件会自动清理一次，不用再手动处理。",
- "sha256": "86d9fd1f5beed57a3a35c2308dc543b5b52f4662302b4c3742533d4242436170",
- "size": 222005,
- "parts": [
-  {
-   "file": "update.z01",
-   "sha256": "86d9fd1f5beed57a3a35c2308dc543b5b52f4662302b4c3742533d4242436170",
-   "size": 222005
-  }
- ],
- "removed": [],
- "bridge": {
-  "size": 124003997,
-  "sha256": "667be39d13faaa447c6cc7e9de651efade69c33cd83d37d7fabd152ae0374172",
+  "version": "2.4.3",
+  "notes": "v2.4.3 更新内容（2026-10-07）\n\n✏️ 账号档改名真正\"只改名\"\n· 改名后 AI 写作发布账号、数据检测当前档、收益日报缓存全部跟着迁到新名字\n· 不会再出现\"一个账号两个名字\"要手动删一个的情况\n\n🧹 删除账号档彻底清空\n· 登录记录、发布进度、按书进度、发布历史、章节夹一次性全删，不留残渣\n\n📥 下载文件夹改名\n· 小说默认下载到桌面「包包写作小说下载」文件夹（原名番茄小说下载，老用户自动迁移）\n\n🔇 日志不刷屏\n· \"在架书单还没同步过\"每个账号只提醒一次，点多少次刷新都不刷\n\n🎨 软件图标焕新\n· 全新包包图标内置于软件，任务栏和桌面都更好看（本次更新后生效）",
+  "sha256": "03b13aab6cb941b3520bd2a411b8aa4732b8fd64429dfd47ee948f84aff8bc13",
+  "size": 181109,
   "parts": [
-   {
-    "file": "bridge.z01",
-    "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z02",
-    "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z03",
-    "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z04",
-    "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z05",
-    "sha256": "32c35d9c3f1b4cd72b7862b31aa3bbde78be579176f5dd40689924db7d61cad2",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z06",
-    "sha256": "f5986a9f9957f9cf4dbb02ab0e4b84300d83af0200aa8a4ce3d68c72793d4169",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z07",
-    "sha256": "73f9c026fe9926828dbe7d3c7501ca57571a2ecd6d9e8189d7ecfc1a1105df84",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z08",
-    "sha256": "ce6eacb6b08af60414115d6ba0daa55760faa1a89f2aa84ffd2a658612f1b76b",
-    "size": 6563485
-   }
-  ]
- }
+    {
+      "file": "update.z01",
+      "sha256": "03b13aab6cb941b3520bd2a411b8aa4732b8fd64429dfd47ee948f84aff8bc13",
+      "size": 181109
+    }
+  ],
+  "removed": [],
+  "bridge": {
+    "sha256": "619bcfbcdb158dbfbafde057bb9c7b07c5af961b582799bbce770f3c4e92f37f",
+    "size": 124003598,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "73fedff872acd73092ad67271e80f9d3ff2b3d72bc58417438b3cae72a76aea1",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "ba784e7817dd4842fd651ae06a7b48c8b792222041b888c8f17fb5b94f50bb86",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "bf680560d51889d53036e6f8ea9c402030cf14d5afc08ce0bfd0569573e98fd0",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "535aef7219e44914438fd5d0eb926f85b2077339dd4e26b309da1a455e130a7d",
+        "size": 6563086
+      }
+    ]
+  }
 }
