@@ -1,60 +1,60 @@
 {
- "version": "2.4.4",
- "notes": "v2.4.4 更新内容（2026-10-08）\n\n📮 修复发件邮箱测试误报\n· 填好邮箱直接点「测试」就能通过，不用先点保存\n· 之前会误报\"没有这个发件邮箱\"，其实是配置还没存盘，现在点测试自动先保存\n· 如果授权码真有问题，会显示邮箱服务器返回的真实原因，排查更省事",
- "sha256": "2852d81f83f2936693c1af8ff066ff21ebffba92c657032c3ddcc285922d7928",
- "size": 168077,
- "parts": [
-  {
-   "file": "update.z01",
-   "sha256": "2852d81f83f2936693c1af8ff066ff21ebffba92c657032c3ddcc285922d7928",
-   "size": 168077
-  }
- ],
- "removed": [],
- "bridge": {
-  "size": 124003598,
-  "sha256": "619bcfbcdb158dbfbafde057bb9c7b07c5af961b582799bbce770f3c4e92f37f",
+  "version": "2.4.5",
+  "notes": "v2.4.5 更新内容（2026-10-08）\n\n🌐 新增「打开后台」按钮\n· 番茄发文每条流水线上都有啦，类似 AI 写作的「打开智语」\n· 点一下按当前账号档弹出番茄作家后台浏览器：已登录直接进后台\n· 没登录的在窗口里扫码，登录成功自动存到这个账号档，不用走「登入账户」流程\n· 窗口想开多久开多久，手动操作不影响软件自动发布任务，关掉窗口即结束\n· A、B 两个账号可以同时各开一个后台窗口",
+  "sha256": "3e970c729caa870e4dae8fe0b32ece237e474559112dd0f017a36a5b26fd42b5",
+  "size": 180946,
   "parts": [
-   {
-    "file": "bridge.z01",
-    "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z02",
-    "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z03",
-    "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z04",
-    "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z05",
-    "sha256": "73fedff872acd73092ad67271e80f9d3ff2b3d72bc58417438b3cae72a76aea1",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z06",
-    "sha256": "ba784e7817dd4842fd651ae06a7b48c8b792222041b888c8f17fb5b94f50bb86",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z07",
-    "sha256": "bf680560d51889d53036e6f8ea9c402030cf14d5afc08ce0bfd0569573e98fd0",
-    "size": 16777216
-   },
-   {
-    "file": "bridge.z08",
-    "sha256": "535aef7219e44914438fd5d0eb926f85b2077339dd4e26b309da1a455e130a7d",
-    "size": 6563086
-   }
-  ]
- }
+    {
+      "file": "update.z01",
+      "sha256": "3e970c729caa870e4dae8fe0b32ece237e474559112dd0f017a36a5b26fd42b5",
+      "size": 180946
+    }
+  ],
+  "removed": [],
+  "bridge": {
+    "sha256": "4e6cb1b80809a57c1e8b41c5130112e5c246a24f2f0621f12670b0c178615e00",
+    "size": 124006821,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "1056ead2a9387dfe5cc57cb3eeec8d32da6627b54fbb1c8d79243d82184c2f6f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "e452ad9b6b338dce08855fef710784138d02ef709fcc7f24e94f511f8a4a1995",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "b97a9afce5d6947e8ceeb842f68a148671750213717555f537604802ef3161b9",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "70c6dfc6d0787bbfe8529984a5038bcb273d4b778171c9990e3b8015e49be07f",
+        "size": 6566309
+      }
+    ]
+  }
 }
