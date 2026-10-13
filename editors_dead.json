@@ -1,5 +1,10 @@
 {
   "updated": "2026-10-13",
   "note": "全网失效编辑名单，包包维护。key 为 email，没有 email 用 平台|QQ。软件启动自动同步，命中编辑打「疑似离职」标记并排除出一键全选。",
-  "list": []
+  "list": [
+    {
+      "email": "fanqiexiaoshuoduan@bytedance.com",
+      "reason": "测试：疑似离职"
+    }
+  ]
 }
