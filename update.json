@@ -1,16 +1,16 @@
 {
-  "version": "3.1.0",
-  "notes": "🔐 3.1.0 安全大升级 + 小修复\n\n1️⃣ 授权码升级成「签名码」：新码用银行级非对称签名（Ed25519），软件里只有公钥、能验不能签——就算整包被逆向，也伪造不出新授权码。旧码照常能用，不用急着换\n\n2️⃣ 你的 AI Key、邮箱授权码、微信推送 token 从今往后在电脑里都是加密存放（Windows 系统级加密），别人拷走文件也解不开\n\n3️⃣ 更新通道上锁：每次更新的更新信息都带数字签名，有人篡改下载渠道软件会拒绝下载，再也喂不进来历不明的安装包\n\n4️⃣ 关掉了几个调试口子，防止被注入篡改\n\n5️⃣ 修复：番茄发文勾了「隐藏浏览器」切换页签后被刷掉的问题，现在勾上立刻记住\n\n💗 更新完自动重启，数据都在～",
-  "sha256": "89fd178cc6632a500b751c5186496ac86108c30c6c2c8aa523604daea69d84de",
-  "size": 259448,
+  "version": "3.1.1",
+  "notes": "🌟 3.1.1 更新啦～\n\n🐛 修复：软件已经在运行时，再双击图标开不了新窗口的问题\n\n现在双击图标会弹出三个选择：\n✅ 打开新窗口（多开）\n↩️ 回到已有窗口\n❌ 取消\n\n✨ 想多开几个窗口一起用的宝子们，放心双开啦～\n\n更新完自动重启，数据都在～",
+  "sha256": "f6f8609bb1481ac1da8a1949cc8b35c3a25c422b5269dba61f4e48192cffb558",
+  "size": 259888,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "89fd178cc6632a500b751c5186496ac86108c30c6c2c8aa523604daea69d84de",
-      "size": 259448
+      "sha256": "f6f8609bb1481ac1da8a1949cc8b35c3a25c422b5269dba61f4e48192cffb558",
+      "size": 259888
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "sig": "veSmF9S3JMNwcOaNLRQV+Fkg7+Yiw5VOYj7qBrDqUt0YZhFADw6eZt+joxqgL+MrYgUE5LFV/6yqDtysbZ2sBw=="
+  "sig": "14hPLo6ndZl2ch4aaR/gBn2yoEVYusZMmiEk5bcRPfFmCNHdqsTK2gmOm+7+ttPPmha3vWmtWbKuYnX9B8PsDQ=="
 }
