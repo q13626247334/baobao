@@ -1,16 +1,16 @@
 {
-  "version": "3.1.1",
-  "notes": "🌟 3.1.1 更新啦～\n\n🐛 修复：软件已经在运行时，再双击图标开不了新窗口的问题\n\n现在双击图标会弹出三个选择：\n✅ 打开新窗口（多开）\n↩️ 回到已有窗口\n❌ 取消\n\n✨ 想多开几个窗口一起用的宝子们，放心双开啦～\n\n更新完自动重启，数据都在～",
-  "sha256": "f6f8609bb1481ac1da8a1949cc8b35c3a25c422b5269dba61f4e48192cffb558",
-  "size": 259888,
+  "version": "3.1.2",
+  "notes": "🌟 3.1.2 更新啦～ 书荒推书大修复！\n\n📚 推书荒修复：\n🐛 修复「推荐好书 / 添加」按钮经常点空、快成功又退回的问题\n🐛 修复选好书后进不了编辑页只能干等跳过的问题，现在会自动重新选书\n🐛 修复话术没填进正文的问题，现在打完会校验，日志能看到「已填话术」\n🐛 修复昨天推过的帖子今天又重复推的问题，真实标题去重，日志会显示「跳过已推过的话题」\n\n✨ AI 写话术优化：\n🧠 不再把 AI 的思考过程写进话术，只留干干净净的一句话\n\n更新完自动重启，数据都在～",
+  "sha256": "2ba371fa8ed55dc348d225b2cd3efebaacd9ec4eab70585bae2b54807c0fbe42",
+  "size": 262277,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "f6f8609bb1481ac1da8a1949cc8b35c3a25c422b5269dba61f4e48192cffb558",
-      "size": 259888
+      "sha256": "2ba371fa8ed55dc348d225b2cd3efebaacd9ec4eab70585bae2b54807c0fbe42",
+      "size": 262277
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "sig": "14hPLo6ndZl2ch4aaR/gBn2yoEVYusZMmiEk5bcRPfFmCNHdqsTK2gmOm+7+ttPPmha3vWmtWbKuYnX9B8PsDQ=="
+  "sig": "MY3pddsbZKDK15gEkOyM8Kg3zdhUCsY5JkwxBZ6TtgcX3TeH4CzvQGfI6RvpTdAxD7bstSBpU1oMb+97n6DnCw=="
 }
