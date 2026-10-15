@@ -1,16 +1,16 @@
 {
-  "version": "3.1.2",
-  "notes": "🌟 3.1.2 更新啦～ 书荒推书大修复！\n\n📚 推书荒修复：\n🐛 修复「推荐好书 / 添加」按钮经常点空、快成功又退回的问题\n🐛 修复选好书后进不了编辑页只能干等跳过的问题，现在会自动重新选书\n🐛 修复话术没填进正文的问题，现在打完会校验，日志能看到「已填话术」\n🐛 修复昨天推过的帖子今天又重复推的问题，真实标题去重，日志会显示「跳过已推过的话题」\n\n✨ AI 写话术优化：\n🧠 不再把 AI 的思考过程写进话术，只留干干净净的一句话\n\n更新完自动重启，数据都在～",
-  "sha256": "2ba371fa8ed55dc348d225b2cd3efebaacd9ec4eab70585bae2b54807c0fbe42",
-  "size": 262277,
+  "version": "3.1.3",
+  "notes": "🌟 3.1.3 更新啦～\n\n🐛 修复：浏览器（Edge/Chrome）自动更新后，软件打不开浏览器、下载不了小说的问题\n✨ 新功能：自动剧情小本子\n📝 每章自动用免费 AI 记一行主线进度和伏笔，扩写时自动提醒智语\n📖 写到一百章也记得第三十章埋了啥，伏笔不烂尾、人设不跑偏\n💰 走免费额度不花钱，繁忙时自动跳过记账，绝不影响写正文\n🔧 AI 写作设置里可以开关，默认开\n\n更新完自动重启，数据都在～",
+  "sha256": "b00e92d93a0ed8f2a7a6da667f76541f1349759d052c9b8f61e2fd5a9159029d",
+  "size": 2493824,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "2ba371fa8ed55dc348d225b2cd3efebaacd9ec4eab70585bae2b54807c0fbe42",
-      "size": 262277
+      "sha256": "b00e92d93a0ed8f2a7a6da667f76541f1349759d052c9b8f61e2fd5a9159029d",
+      "size": 2493824
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "sig": "MY3pddsbZKDK15gEkOyM8Kg3zdhUCsY5JkwxBZ6TtgcX3TeH4CzvQGfI6RvpTdAxD7bstSBpU1oMb+97n6DnCw=="
+  "sig": "sij/M8bSXacFqZUR1opo3acFkKIo4MsSO0G9fQT1Qaa982QP4lsTKPDC8jGD3ipHxB07aCxf3PxXsCWAflobDw=="
 }
