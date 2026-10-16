@@ -1,20 +1,20 @@
 {
-  "version": "3.2.0",
-  "notes": "【3.2.0 更新内容】\n\n✨ 完本模式批量发布大修复：之前一次发完本书，发到十几章就莫名中断、还得守着重启，这次彻底根治。设好「从第几章到第几章」，上百章一口气排完，中途不再断、不再丢章。\n\n✨ 推书荒适配番茄新版页面：推不动、话术带不上的问题都已修复。\n\n✨ 桌宠新增生活提醒：喝水、起来动动、到点吃饭、早点睡觉，小宠物会不定时喊你（可开关）。\n\n✨ 编辑库更新：移除 9 位已失效的编辑邮箱，更新后自动清理，不再出现在库里。\n\n✨ 下载引擎优化：找书更稳，日志更清楚。\n\n⚠ 本次更新较大，旧版跑完本会有中断问题，建议所有人尽快更新。",
-  "sha256": "68efdbba80e88dc74bde6e5fb0b0462e80668ff583724bb16ec76498c9a9afc9",
-  "size": 300154,
+  "version": "3.2.1",
+  "notes": "v3.2.1 更新啦✨\n\n🗓 定时发文大修复：改了「几号开始」还按旧日期发的问题彻底解决，中途停止再调整也会严格按你新设的日期排期\n\n💌 投稿防进垃圾箱：每封信的问候语现在自动随机生成、称呼自动带上编辑名字，每封都不一样，不容易被判成营销邮件（默认开启，可在问候语下方取消勾选）\n\n✍️ 投稿落款：设置里新增「笔名」，填了以后落款显示「作者：笔名」，发件人名字也同步；不填就不放落款\n\n⏰ 发文时间支持中文冒号（00：00 也能识别），时间填错不再卡死，自动按 08:00 排并提示\n\n请大家更新后试一下定时排期是否正常，有问题随时喊我～",
+  "sha256": "28c19db2712fb831a326b3c603b0e7d891250c4da5b31d27c2eb56e02d5822e1",
+  "size": 12755388,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "68efdbba80e88dc74bde6e5fb0b0462e80668ff583724bb16ec76498c9a9afc9",
-      "size": 300154
+      "sha256": "28c19db2712fb831a326b3c603b0e7d891250c4da5b31d27c2eb56e02d5822e1",
+      "size": 12755388
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "b1afda8a9a0eeebe71d12185b8bcae6cfc1508ed0e6eb120a75be21e5301b41a",
-    "size": 209249699,
+    "sha256": "930d4387a17f53e03e2f808931da6bbaf027694824213e7d40ae7adfc49ba9f5",
+    "size": 209248853,
     "parts": [
       {
         "file": "bridge.z01",
@@ -38,50 +38,50 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "8cdbb0a25531f6144ad6aeb1e48571697e367c88cff9815644ec23288c7e18b4",
+        "sha256": "d8ce44e63c6df54dfc148b3363d0fd26df41cccd0c6cf3f445c34d8365d905d2",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "17c4a82fc81686f9cf3ffc6976affdf3a2e4f51404edf49845f2fe09c446f8f0",
+        "sha256": "07ca246f1a8bd2076ace85a9d626a7f958615cf330296c8b647db32541639dba",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "73c3a368f52456d66036197bc272c5d5298c19305bf44c8aaff63b0aae5987b6",
+        "sha256": "9654da468bd0694cc377931fe32e2364daf2ede80409b35e9947db279ba570fa",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "0521be7f4076e7a0685a1bffec51ad2c0b8966f0e54948ae9b27b3ab0d7a8250",
+        "sha256": "4394038e2a8f0b320248ad153a9823bd48120b578af5d5564a8718bce35edd6a",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "4f7d2c47c77622e1d4b283fc07c7b167737ae6808d1e2c079abf3d05f64334a9",
+        "sha256": "325d6e3e3372c770944a504903c5b1e5c63ef16e13fd71a4011e680ef6812cab",
         "size": 16777216
       },
       {
         "file": "bridge.z10",
-        "sha256": "98f11d1630db4c429ac6b175a759cbbdf2d0c2e890a5a42782c4e5c89237ee11",
+        "sha256": "2c5d61abc8bee8a459d7ab61717521b2c777136aa0ed40e04f3bdd393582b5d9",
         "size": 16777216
       },
       {
         "file": "bridge.z11",
-        "sha256": "69b1e13a7648ff6c6f130b7e7953f63b7f015c144406f41fac8f0bcb89f082ac",
+        "sha256": "688748e0380792d17cbd1f73a647ed3d80088fa8eecd7c260843d24d720879bd",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "3042dda4130de97931914a779cab9162489e22eea65be9ddd1891fe7d9989c21",
+        "sha256": "10f4a63729593a397cf1768e75822b0730ed304b5ca80bceff79d93f0bb26a9b",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "21356a82a781770919ec3128db04b9fe09c654516efd236f1433df5b272f7ab9",
-        "size": 7923107
+        "sha256": "d6688ac16489ece72449b38fe201ad670ad31e8c2c91085b1abe63d7ca738546",
+        "size": 7922261
       }
     ]
   },
-  "sig": "P8TzLnD+qC1hd8JLsO+t4amARHGORKAz6ZXrtJ0eyCdEkLiatf7SA9ZdrDnSAS6yrBtobMongYn7oyEaMoRxBw=="
+  "sig": "3RfI8Fj3nYIHVSWfYCXuQWbIuKLSIJUksqNN7/kOBo8Rp7/S0r66vRgGdpphO5SED1KsK/bYAVfDQrh19OgeCQ=="
 }
