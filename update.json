@@ -1,16 +1,87 @@
 {
-  "version": "3.1.4",
-  "notes": "🌟 3.1.4 更新啦～\n\n✨ 下载页大变样：进度条换成黑色大日志框，下载细节看得清清楚楚\n✨ 下载、拆书的日志全部记到下载页，AI 写作日志不再被下载内容刷屏\n✨ 下载自动记耗时：每 10% 报一次进度，哪一章卡住超过 20 秒会标红警告，下完告诉你总共多久、平均每章几秒\n🐛 修复：桌宠关着的时候点最小化，软件会正常缩到任务栏，不会再藏进右下角托盘里找不到\n🐛 修复：Edge 浏览器反复崩溃重开导致的\"下载慢/下载不了\"（如果你之前遇到过，这次更完就顺了）\n\n更新完自动重启，数据都在～",
-  "sha256": "1ac0553e1c9c5e7696e1259b5005f404c6dd012e07da97a963b0c45ff427d1a1",
-  "size": 295326,
+  "version": "3.2.0",
+  "notes": "【3.2.0 更新内容】\n\n✨ 完本模式批量发布大修复：之前一次发完本书，发到十几章就莫名中断、还得守着重启，这次彻底根治。设好「从第几章到第几章」，上百章一口气排完，中途不再断、不再丢章。\n\n✨ 推书荒适配番茄新版页面：推不动、话术带不上的问题都已修复。\n\n✨ 桌宠新增生活提醒：喝水、起来动动、到点吃饭、早点睡觉，小宠物会不定时喊你（可开关）。\n\n✨ 编辑库更新：移除 9 位已失效的编辑邮箱，更新后自动清理，不再出现在库里。\n\n✨ 下载引擎优化：找书更稳，日志更清楚。\n\n⚠ 本次更新较大，旧版跑完本会有中断问题，建议所有人尽快更新。",
+  "sha256": "68efdbba80e88dc74bde6e5fb0b0462e80668ff583724bb16ec76498c9a9afc9",
+  "size": 300154,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "1ac0553e1c9c5e7696e1259b5005f404c6dd012e07da97a963b0c45ff427d1a1",
-      "size": 295326
+      "sha256": "68efdbba80e88dc74bde6e5fb0b0462e80668ff583724bb16ec76498c9a9afc9",
+      "size": 300154
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "sig": "f8tAR/AbLIccM4lwoskH9mSE7MGYIzBEQVg3yaAJkRS+Q6yGvwxcXXlxCu7o3mE7bUqUPUaauBeMFNFzr2WEAA=="
+  "bridge": {
+    "sha256": "b1afda8a9a0eeebe71d12185b8bcae6cfc1508ed0e6eb120a75be21e5301b41a",
+    "size": 209249699,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "8cdbb0a25531f6144ad6aeb1e48571697e367c88cff9815644ec23288c7e18b4",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "17c4a82fc81686f9cf3ffc6976affdf3a2e4f51404edf49845f2fe09c446f8f0",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "73c3a368f52456d66036197bc272c5d5298c19305bf44c8aaff63b0aae5987b6",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "0521be7f4076e7a0685a1bffec51ad2c0b8966f0e54948ae9b27b3ab0d7a8250",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z09",
+        "sha256": "4f7d2c47c77622e1d4b283fc07c7b167737ae6808d1e2c079abf3d05f64334a9",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z10",
+        "sha256": "98f11d1630db4c429ac6b175a759cbbdf2d0c2e890a5a42782c4e5c89237ee11",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z11",
+        "sha256": "69b1e13a7648ff6c6f130b7e7953f63b7f015c144406f41fac8f0bcb89f082ac",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z12",
+        "sha256": "3042dda4130de97931914a779cab9162489e22eea65be9ddd1891fe7d9989c21",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z13",
+        "sha256": "21356a82a781770919ec3128db04b9fe09c654516efd236f1433df5b272f7ab9",
+        "size": 7923107
+      }
+    ]
+  },
+  "sig": "P8TzLnD+qC1hd8JLsO+t4amARHGORKAz6ZXrtJ0eyCdEkLiatf7SA9ZdrDnSAS6yrBtobMongYn7oyEaMoRxBw=="
 }
