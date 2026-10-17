@@ -1,20 +1,20 @@
 {
-  "version": "3.2.1",
-  "notes": "v3.2.1 更新啦✨\n\n🗓 定时发文大修复：改了「几号开始」还按旧日期发的问题彻底解决，中途停止再调整也会严格按你新设的日期排期\n\n💌 投稿防进垃圾箱：每封信的问候语现在自动随机生成、称呼自动带上编辑名字，每封都不一样，不容易被判成营销邮件（默认开启，可在问候语下方取消勾选）\n\n✍️ 投稿落款：设置里新增「笔名」，填了以后落款显示「作者：笔名」，发件人名字也同步；不填就不放落款\n\n⏰ 发文时间支持中文冒号（00：00 也能识别），时间填错不再卡死，自动按 08:00 排并提示\n\n请大家更新后试一下定时排期是否正常，有问题随时喊我～",
-  "sha256": "28c19db2712fb831a326b3c603b0e7d891250c4da5b31d27c2eb56e02d5822e1",
-  "size": 12755388,
+  "version": "3.2.2",
+  "notes": "v3.2.2 更新啦✨\n\n🏁 完本模式上线：发布模式下拉框里新增「🏁 完本模式（全部立即发）」，选了点一键发布，把整本书全部章节一次性立刻发完，不用一天一天排期（发完会自动弹回「立即发布」，不会误存）\n\n🔌 发布完自动关机：番茄发文「共同设置」里新增开关（默认关，勾选会弹说明）。开启后手动发布全部跑完会弹窗+响铃，5 分钟内不点取消就自动帮你关机，挂着发完几百章可以放心去睡觉；中途点「停止」不会关\n\n📁 排版备份挪桌面：点「排版规范化」之前的原文件，现在自动备份到桌面「排版备份_书名_时间」文件夹，一眼能找到，每次单独一个文件夹不互相覆盖\n\n✨ 发文页排版微调：总章节和每天发几章并排第一排，几号开始/从第几章到第几章第二排，不用拉宽窗口也能一眼看全\n\n请大家更新后试一下完本模式，有问题随时喊我～",
+  "sha256": "f76bd7df5f68dfcb177630125f260754c4e7fca0dd3f96315bd689a6b5ffcd4e",
+  "size": 12756927,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "28c19db2712fb831a326b3c603b0e7d891250c4da5b31d27c2eb56e02d5822e1",
-      "size": 12755388
+      "sha256": "f76bd7df5f68dfcb177630125f260754c4e7fca0dd3f96315bd689a6b5ffcd4e",
+      "size": 12756927
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "930d4387a17f53e03e2f808931da6bbaf027694824213e7d40ae7adfc49ba9f5",
-    "size": 209248853,
+    "sha256": "d9a5a23dc1d05a21dd5ada020e2a218186a29387620456ca6de96c786932b835",
+    "size": 216219475,
     "parts": [
       {
         "file": "bridge.z01",
@@ -38,50 +38,50 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "d8ce44e63c6df54dfc148b3363d0fd26df41cccd0c6cf3f445c34d8365d905d2",
+        "sha256": "4a844496c683b35e66c3f8a6678e66f040449fbd510b4b4d8a6d5ddbe4ab444c",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "07ca246f1a8bd2076ace85a9d626a7f958615cf330296c8b647db32541639dba",
+        "sha256": "3a32ff5ff32a96e6dde15b56772476e981adc9fd77dcc0d687c0e102e6ffbf79",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "9654da468bd0694cc377931fe32e2364daf2ede80409b35e9947db279ba570fa",
+        "sha256": "a0bbacb1585c6c211f099f8638c0505297b50ed7ce05e263de378d166d163f07",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "4394038e2a8f0b320248ad153a9823bd48120b578af5d5564a8718bce35edd6a",
+        "sha256": "f6ad760cc2b996079343d0c7d175966d6d62f7557ca24ae35f7d7c22c9a4392d",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "325d6e3e3372c770944a504903c5b1e5c63ef16e13fd71a4011e680ef6812cab",
+        "sha256": "9ebdf2f9b72cee635667b8da0b2eca76626fa7616c279b53bb8027789e98f192",
         "size": 16777216
       },
       {
         "file": "bridge.z10",
-        "sha256": "2c5d61abc8bee8a459d7ab61717521b2c777136aa0ed40e04f3bdd393582b5d9",
+        "sha256": "a15c4ecd675e8658fbcafc76a1ee0b36585d8838af766ebde639eb40c111376a",
         "size": 16777216
       },
       {
         "file": "bridge.z11",
-        "sha256": "688748e0380792d17cbd1f73a647ed3d80088fa8eecd7c260843d24d720879bd",
+        "sha256": "3ed0f507066447b42e6ae63b23cf96743cdb813a2d6dda391d11c222b84e4bee",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "10f4a63729593a397cf1768e75822b0730ed304b5ca80bceff79d93f0bb26a9b",
+        "sha256": "ddcb9fcc101ec0e82623ccc0258d51b828f9069b926e169f2eb808ab10a626b9",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "d6688ac16489ece72449b38fe201ad670ad31e8c2c91085b1abe63d7ca738546",
-        "size": 7922261
+        "sha256": "ee2ad0f55201c888911a2bf2cfa8d0933ac251a53c633e7c5ea3ffdded356458",
+        "size": 14892883
       }
     ]
   },
-  "sig": "3RfI8Fj3nYIHVSWfYCXuQWbIuKLSIJUksqNN7/kOBo8Rp7/S0r66vRgGdpphO5SED1KsK/bYAVfDQrh19OgeCQ=="
+  "sig": "HKWHP5HzJV0z/JysF7Kx2hFF6zZ7pU2hZ/vpeZA4Z+yiYUt9CvXOQB9z2xO9tNmaPdKB0ADHl0lFPdy931ymBQ=="
 }
