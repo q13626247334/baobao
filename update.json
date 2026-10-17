@@ -1,16 +1,87 @@
 {
-  "version": "3.2.4",
-  "notes": "v3.2.4 更新啦✨\n\n🐾 桌宠清爽版：悬停出现的「界面/提醒/退出」三个小按钮删掉了——高分屏上它们会和桌宠越离越远。功能都不丢：点桌宠=打开主界面；右下角包子图标右键=退出软件；喝水/吃饭/睡觉提醒默认开着\n\n🐾 桌宠拖动更跟手：改成跟鼠标位移走，随便怎么拖都贴在鼠标下面，不会越拖越飘\n\n姐妹们更新完拖一下桌宠试试，有问题随时喊我～",
-  "sha256": "38f29e3a1c2cbad9dcdfc84c9dd2324c5fa373559ed7f4d5dd3cc1b8eb5befaf",
-  "size": 12756911,
+  "version": "3.2.5",
+  "notes": "v3.2.5 更新啦✨\n\n📢 完本模式日志说人话：不会再出现\"一会不排期一会又排期\"的矛盾文案了。现在按模式明说——定时发布会告诉你排期几章每天几章；完本/立即模式明说\"立即发布 N 章，不排期\"；存草稿也有自己说法\n\n姐妹们更完有问题随时喊我～",
+  "sha256": "28d96a5afcf184c0db583087aa01638214f84ba93bb5c450f89ccc53ddaec44e",
+  "size": 12757831,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "38f29e3a1c2cbad9dcdfc84c9dd2324c5fa373559ed7f4d5dd3cc1b8eb5befaf",
-      "size": 12756911
+      "sha256": "28d96a5afcf184c0db583087aa01638214f84ba93bb5c450f89ccc53ddaec44e",
+      "size": 12757831
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "sig": "Os2I/SwUl4XWgXfnq1P3V9lTpe14jqFR/2m318WuxNE0tnioeo0x1TUmbdeuy8cSPwOgAwUPXAZdp6rODWfABA=="
+  "bridge": {
+    "sha256": "3160ab7af8fd3d22b231ddf495fc94df3906ed7ad7cef2795f4be696aae2e80c",
+    "size": 216219102,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "4ed8422086f801024e0df76c68577b5732564ff82981e264f998c999ed56dfb6",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "918f399710eb2c65bb1f038a387483e17f7882269e063330246de84d07087df6",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "32fa6cb9be56d4fbc1d06d15ec15c6410cf089bd510cfb68f361494886a2dcd0",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "bcaa8510bd33f416b45c37722905d59977b7d177cbe109318bd77fbb8882a05b",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z09",
+        "sha256": "e0533a76842a9f1a0d905a76d31d66248cc873811e87b925adebd3f890e323cc",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z10",
+        "sha256": "11e470fdafeeb747d73b21d3a7668dc505af2a27267c1860d769f75cfe954030",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z11",
+        "sha256": "50016d29bef3ef2464600245c732cca4347be0a731ce77e0b2b2cb25f226987a",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z12",
+        "sha256": "a47477c219a33a747320091f2d64eb7c29855437ebd707153c92d4f28e174111",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z13",
+        "sha256": "2d0bed5165972733c429e18bc17935753e77967228e3f0f42d74f3bdd8f8265c",
+        "size": 14892510
+      }
+    ]
+  },
+  "sig": "mw4/s6A+qqGdpZx9KFZ6sgNXNYSHnYzF7AfjP+7cnJAX3s+SAbcudgy6xguQoEM4DbE8FJLfRjXdGNyedsZWCQ=="
 }
