@@ -1,20 +1,20 @@
 {
-  "version": "3.2.5",
-  "notes": "v3.2.5 更新啦✨\n\n📢 完本模式日志说人话：不会再出现\"一会不排期一会又排期\"的矛盾文案了。现在按模式明说——定时发布会告诉你排期几章每天几章；完本/立即模式明说\"立即发布 N 章，不排期\"；存草稿也有自己说法\n\n姐妹们更完有问题随时喊我～",
-  "sha256": "28d96a5afcf184c0db583087aa01638214f84ba93bb5c450f89ccc53ddaec44e",
-  "size": 12757831,
+  "version": "3.2.6",
+  "notes": "v3.2.6 更新啦✨（紧急修复，强烈建议马上更）\n\n🚨 番茄发布按钮改名导致发布失败：番茄把「确认发布」改成了「确认提交」，软件找不到按钮每章都超时失败。已适配新旧两种按钮，AI 声明照旧自动选「否」，定时发布不受影响\n\n⚠️ 提醒：番茄审核工作时间 7:00-24:00，夜里发的章节会卡在\"审核中\"到次日早上 7-9 点，建议白天发文\n\n姐妹们更完直接发一章试试，有问题随时喊我～",
+  "sha256": "7bb63620d734d1f36212725d969479391821ab1a4bababc6b4e21b099fcb7150",
+  "size": 12757811,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "28d96a5afcf184c0db583087aa01638214f84ba93bb5c450f89ccc53ddaec44e",
-      "size": 12757831
+      "sha256": "7bb63620d734d1f36212725d969479391821ab1a4bababc6b4e21b099fcb7150",
+      "size": 12757811
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "3160ab7af8fd3d22b231ddf495fc94df3906ed7ad7cef2795f4be696aae2e80c",
-    "size": 216219102,
+    "sha256": "d62231ee7a84139a968cddd4fd78e7b6a745c32dce7c2525bce7c094d1108cf1",
+    "size": 216221106,
     "parts": [
       {
         "file": "bridge.z01",
@@ -38,50 +38,50 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "4ed8422086f801024e0df76c68577b5732564ff82981e264f998c999ed56dfb6",
+        "sha256": "3edd3a09be8287dc0356bf698b3c3ec696373479d9ed239714d4665ea10947bc",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "918f399710eb2c65bb1f038a387483e17f7882269e063330246de84d07087df6",
+        "sha256": "fa64944e52f9740d97f40a8af76b3f1a4360d50048fa636cab2975121fd73c5d",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "32fa6cb9be56d4fbc1d06d15ec15c6410cf089bd510cfb68f361494886a2dcd0",
+        "sha256": "424eb8f2b18844a15fefb24266c11d9f8df5129d2bf7e6300e7cfc544ae48c28",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "bcaa8510bd33f416b45c37722905d59977b7d177cbe109318bd77fbb8882a05b",
+        "sha256": "e704aa8be256de62f29933e5216066b5d6ee20858bb4dbf8c9119ae20a0887a7",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "e0533a76842a9f1a0d905a76d31d66248cc873811e87b925adebd3f890e323cc",
+        "sha256": "23cca60bcd8e98f4b5bd0d10a73e83119a641f350665256f074c3157c5bed955",
         "size": 16777216
       },
       {
         "file": "bridge.z10",
-        "sha256": "11e470fdafeeb747d73b21d3a7668dc505af2a27267c1860d769f75cfe954030",
+        "sha256": "23499bda44acfe1f591ccdf84228b54a8dc56b74d4b6f69c00ef3e09423a71ca",
         "size": 16777216
       },
       {
         "file": "bridge.z11",
-        "sha256": "50016d29bef3ef2464600245c732cca4347be0a731ce77e0b2b2cb25f226987a",
+        "sha256": "c27a513945b065a9051235e3366fee6b8654554954d09d8314e2af8c264e6705",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "a47477c219a33a747320091f2d64eb7c29855437ebd707153c92d4f28e174111",
+        "sha256": "0a5079d223201ba79c838f11f6fdb7d777883b41d58165c2b3a227aa7d66cd66",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "2d0bed5165972733c429e18bc17935753e77967228e3f0f42d74f3bdd8f8265c",
-        "size": 14892510
+        "sha256": "348346049bf123eb968e62ed85e8d4961cdbcbb71b4e5982fe76efac5f443ec8",
+        "size": 14894514
       }
     ]
   },
-  "sig": "mw4/s6A+qqGdpZx9KFZ6sgNXNYSHnYzF7AfjP+7cnJAX3s+SAbcudgy6xguQoEM4DbE8FJLfRjXdGNyedsZWCQ=="
+  "sig": "AstIoL4bQyVcuzO93a1ZeXDkO08f9yEeCNNWNLm5Ac9J9iHvMAyUzkE+v5XA8NrXTei1v8+/u71dcPVoU/icCA=="
 }
