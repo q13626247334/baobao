@@ -1,87 +1,16 @@
 {
-  "version": "3.2.2",
-  "notes": "v3.2.2 更新啦✨\n\n🏁 完本模式上线：发布模式下拉框里新增「🏁 完本模式（全部立即发）」，选了点一键发布，把整本书全部章节一次性立刻发完，不用一天一天排期（发完会自动弹回「立即发布」，不会误存）\n\n🔌 发布完自动关机：番茄发文「共同设置」里新增开关（默认关，勾选会弹说明）。开启后手动发布全部跑完会弹窗+响铃，5 分钟内不点取消就自动帮你关机，挂着发完几百章可以放心去睡觉；中途点「停止」不会关\n\n📁 排版备份挪桌面：点「排版规范化」之前的原文件，现在自动备份到桌面「排版备份_书名_时间」文件夹，一眼能找到，每次单独一个文件夹不互相覆盖\n\n✨ 发文页排版微调：总章节和每天发几章并排第一排，几号开始/从第几章到第几章第二排，不用拉宽窗口也能一眼看全\n\n请大家更新后试一下完本模式，有问题随时喊我～",
-  "sha256": "f76bd7df5f68dfcb177630125f260754c4e7fca0dd3f96315bd689a6b5ffcd4e",
-  "size": 12756927,
+  "version": "3.2.3",
+  "notes": "v3.2.3 更新啦✨\n\n⚡ 更新卡 99% 彻底解决：之前更新到最后一步要干等好几分钟，现在解压改用系统高速组件，216MB 的番茄组件 1 秒多就解完；解压阶段还会明确显示「解压番茄组件…」，走到哪一步一目了然\n\n🐾 桌宠生活提醒：桌宠会提醒你喝水、起来活动、远眺护眼，到点喊你吃饭，晚上十一点催你睡觉，熬到凌晨会被包包念（鼠标移到桌宠上点「提醒」可以开关）\n\n🧩 AI 模型分组：「当前模型」下拉里官方免费模型和「我的模型」分开两组，自己接的 API 可以添加多个、随时切换，当前通道名固定显示，每次 AI 请求后还会显示实测通道，换没换成功一眼就知道\n\n💾 推书荒记住关键词：书荒推书填过的关键词和书名会自动记住，下次打开还在，不用重新输\n\n请大家更新后试一下，有问题随时喊我～",
+  "sha256": "0b2da0410254a9f01dd399b37c4806e685ecaede75798c66785ac856763459d6",
+  "size": 12757269,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "f76bd7df5f68dfcb177630125f260754c4e7fca0dd3f96315bd689a6b5ffcd4e",
-      "size": 12756927
+      "sha256": "0b2da0410254a9f01dd399b37c4806e685ecaede75798c66785ac856763459d6",
+      "size": 12757269
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "bridge": {
-    "sha256": "d9a5a23dc1d05a21dd5ada020e2a218186a29387620456ca6de96c786932b835",
-    "size": 216219475,
-    "parts": [
-      {
-        "file": "bridge.z01",
-        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z02",
-        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z03",
-        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z04",
-        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z05",
-        "sha256": "4a844496c683b35e66c3f8a6678e66f040449fbd510b4b4d8a6d5ddbe4ab444c",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z06",
-        "sha256": "3a32ff5ff32a96e6dde15b56772476e981adc9fd77dcc0d687c0e102e6ffbf79",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z07",
-        "sha256": "a0bbacb1585c6c211f099f8638c0505297b50ed7ce05e263de378d166d163f07",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z08",
-        "sha256": "f6ad760cc2b996079343d0c7d175966d6d62f7557ca24ae35f7d7c22c9a4392d",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z09",
-        "sha256": "9ebdf2f9b72cee635667b8da0b2eca76626fa7616c279b53bb8027789e98f192",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z10",
-        "sha256": "a15c4ecd675e8658fbcafc76a1ee0b36585d8838af766ebde639eb40c111376a",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z11",
-        "sha256": "3ed0f507066447b42e6ae63b23cf96743cdb813a2d6dda391d11c222b84e4bee",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z12",
-        "sha256": "ddcb9fcc101ec0e82623ccc0258d51b828f9069b926e169f2eb808ab10a626b9",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z13",
-        "sha256": "ee2ad0f55201c888911a2bf2cfa8d0933ac251a53c633e7c5ea3ffdded356458",
-        "size": 14892883
-      }
-    ]
-  },
-  "sig": "HKWHP5HzJV0z/JysF7Kx2hFF6zZ7pU2hZ/vpeZA4Z+yiYUt9CvXOQB9z2xO9tNmaPdKB0ADHl0lFPdy931ymBQ=="
+  "sig": "hsTWgPNJmm02gID3Rk6I/OxwxlGVlAjmRwkp6k4j5ALxoB2A6ONO+9pzX7MnYU6tfZ5DntRYK30teR5moe15Ag=="
 }
