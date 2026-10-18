@@ -1,13 +1,13 @@
 {
-  "version": "3.2.10",
-  "notes": "3.2.10 更新内容：\n\n【修复】打开软件弹出「软件已在运行」的问题\n以前软件最小化或点 X 转入后台挂机（桌宠/托盘）后，再双击桌面图标就会弹窗提示「已在运行」，很多人以为软件没开、不敢点。\n现在改为：双击图标直接唤回原来的窗口，不弹窗、不打扰。\n想多开的话：把软件整个文件夹复制到别的目录再打开即可。",
-  "sha256": "df741213eec0fbb7ee0761eca44c6893f04c49a4f87f6dc83a019891f34203fe",
-  "size": 12759281,
+  "version": "3.2.11",
+  "notes": "3.2.11 更新内容：\n\n【修复】恢复多开功能\n上一版改动导致双击图标无法多开，现已恢复为原来的弹窗选择：\n想多开：点「打开新窗口」\n想找回原来的窗口：点「回到已有窗口」\n\n给大家造成不便非常抱歉，建议大家都更新到这一版。",
+  "sha256": "dbf9ea33a4bce0db5b6d60acc08d538d5bb6a706a1d0424217b62e980a7c74ee",
+  "size": 12759527,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "df741213eec0fbb7ee0761eca44c6893f04c49a4f87f6dc83a019891f34203fe",
-      "size": 12759281
+      "sha256": "dbf9ea33a4bce0db5b6d60acc08d538d5bb6a706a1d0424217b62e980a7c74ee",
+      "size": 12759527
     }
   ],
   "removed": [],
@@ -88,5 +88,5 @@
       }
     ]
   },
-  "sig": "+Uyd+rRdbgv9TUyM6yKk7vHclfciKa8j5AWhgTLuZPqz3OZFt3HJKGal6UZ5fZd1MYVEfZdf4w9CrZzxwAJ1Aw=="
+  "sig": "b9XAD0AmeFTqPKVgrybou7Q3AkuxULLAYVHJD0cFDXiGh6B5xAriIjL+IVkW9R4tJzbXQl+mTdQ6+NpVNub6Bw=="
 }
