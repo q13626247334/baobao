@@ -1,20 +1,20 @@
 {
-  "version": "3.2.7",
-  "notes": "包包AI写作助手 v3.2.7 更新说明\n================================\n\n【重要修复】发文中途被误杀的问题\n\n有用户反馈：完本模式/定时发布跑着跑着，发到十几章突然停了，\n日志显示\"浏览器已关闭\"，但自己明明没点停止。\n\n原因：发布任务跑着的时候，如果点过「打开番茄后台窗口」等功能，\n软件会收不到任务的\"心跳\"，12 分钟后误判卡死、强制关浏览器收场。\n\n本次修复：\n✅ 任务心跳改为直连，不再受其他操作影响——跑文时随便开窗口、切页面都不会再被误杀\n✅ 顺带修复跑长任务时日志偶发丢失的问题\n\n如果你遇到过\"发到一半自己停了\"的情况，这个版本就是为你修的。",
-  "sha256": "aaefa154fa845c5e055acba800d57181bca98cef14e9cabc9536bc4209c28c82",
-  "size": 12757699,
+  "version": "3.2.8",
+  "notes": "包包AI写作助手 v3.2.8 更新说明\n================================\n\n【重大升级】完本模式全新发布链路\n\n有用户反馈：完本模式一次发几百章，发到十几章就批量失败、\n或者日志全绿但番茄实际漏章。\n\n本次完本模式彻底重做：\n✅ 先把整本书一次性批量导入番茄「草稿箱」（一次解析上百章，不用逐章复制粘贴）\n✅ 再从草稿箱逐章点发布，每章都回查番茄后台验真，假成功直接重试\n✅ 单章失败不再中断整批：失败的章留在草稿箱，重跑「完本模式」自动补齐\n✅ 几百章的书中途随便停，已发的进度自动保存，下次接着发\n\n发布成功的章节照旧从章节文件夹删掉即可，和之前的用法完全一样。\n\n如果你拿软件发完本书，这个版本就是为你做的。",
+  "sha256": "8f8605e2938639f9919000b50821b7a82bd613fe0635f4539a3c2a9051a119bd",
+  "size": 12757287,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "aaefa154fa845c5e055acba800d57181bca98cef14e9cabc9536bc4209c28c82",
-      "size": 12757699
+      "sha256": "8f8605e2938639f9919000b50821b7a82bd613fe0635f4539a3c2a9051a119bd",
+      "size": 12757287
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "189a9358842aa29984d9fb55c3c4820efca4a9970c8ddc9b83cf4fdb4457a021",
-    "size": 216221779,
+    "sha256": "42724b113440314c061dcedca87ea76059a1dc29903ddf8e7ab0cbab45118b81",
+    "size": 221869382,
     "parts": [
       {
         "file": "bridge.z01",
@@ -38,50 +38,55 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "fa0090cb8d25cac2017144a2e50b50fe95fb3976f77d854c182b587c019d116d",
+        "sha256": "d59f6947e6476b6e0e04691f19870dd6fc35e5e2c53e810dfba8f5779f5077ba",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "3288bec5ddcaef11e2e7d04ca25ab2a3e2c0a506d16e95920afb3c86c36b605e",
+        "sha256": "6780ab2184f32eea95aea69d2e9334a915f90782c10c1f21794549b8c3830559",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "a71a0df015f44b08d835c4fb3eec31a4f8fdad91adb76c4c909e5f53516dc522",
+        "sha256": "c0c7c56526d6de187b17e438279c28fd040805c310789a0013837c909915ab0f",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "5d4b6d972df415ce48b87de527901005758c498bfa0b127b1892e3e24db4303d",
+        "sha256": "62bdb7089c696c8d81d445f73965c3e574b4fa9aacb82a7cb7c1c38c8a1cb08b",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "0375c93eb56a0ca8ac416de65b0d084fbcfb929ed79ee0d5d301f53ba87aec9a",
+        "sha256": "421fbda54a9bb76193db228afcfc226570b6a47734009025fae5efad189beae7",
         "size": 16777216
       },
       {
         "file": "bridge.z10",
-        "sha256": "a76dc280ec1169a09f33039a7944c8e0ce88bbcb0f46037a13549693bb077126",
+        "sha256": "fdcb19ae9f5407ea1af0f4925f34af6f460182042d43e93f6b5681a43429d223",
         "size": 16777216
       },
       {
         "file": "bridge.z11",
-        "sha256": "27b627e97f6b157039bd343f96a246cdd3401db86924fd638608c3b97113dbf7",
+        "sha256": "56c93e322dda144766b186688ad833050621a4d75ba138b7dc6248b7e89efaad",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "12d78c92ec03160299cfc147ee1e6e34405870e5597f3040053529334291e49e",
+        "sha256": "8deb72885a3874299e49d5e87bc8fd2e84a5c9f65f158bdb68725184d8442397",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "1451ff7d884eef1d25ffb279a2f5937fb936b7ef5cdc3ee84bd3612fc3b47563",
-        "size": 14895187
+        "sha256": "a67b0bd30d941dcc7464cec04ccbd198c4a4692382fa5c53f3d12c6ec6c5c938",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z14",
+        "sha256": "a6b2b30a4c2da9abea2f8f725462cf00b13f62b376a232c7963349ba17817f8c",
+        "size": 3765574
       }
     ]
   },
-  "sig": "0ewy95LERMqNF6r2kXWmovVZRKB5jtocuz3npeT15j1dUEF72cphvpqau30XfLf1cUEv+SQoBnOfVijfg+thAA=="
+  "sig": "QSpOOVqXLYg/RHSriGR6izFzbi7dX2kqWC+kYXVg7nU5Y4vLhbTodBSxsOu4H3oCjnlKVLCjn3mzOLUYY5IEBw=="
 }
