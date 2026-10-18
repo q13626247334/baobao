@@ -1,20 +1,20 @@
 {
-  "version": "3.2.6",
-  "notes": "v3.2.6 更新啦✨（紧急修复，强烈建议马上更）\n\n🚨 番茄发布按钮改名导致发布失败：番茄把「确认发布」改成了「确认提交」，软件找不到按钮每章都超时失败。已适配新旧两种按钮，AI 声明照旧自动选「否」，定时发布不受影响\n\n⚠️ 提醒：番茄审核工作时间 7:00-24:00，夜里发的章节会卡在\"审核中\"到次日早上 7-9 点，建议白天发文\n\n姐妹们更完直接发一章试试，有问题随时喊我～",
-  "sha256": "7bb63620d734d1f36212725d969479391821ab1a4bababc6b4e21b099fcb7150",
-  "size": 12757811,
+  "version": "3.2.7",
+  "notes": "包包AI写作助手 v3.2.7 更新说明\n================================\n\n【重要修复】发文中途被误杀的问题\n\n有用户反馈：完本模式/定时发布跑着跑着，发到十几章突然停了，\n日志显示\"浏览器已关闭\"，但自己明明没点停止。\n\n原因：发布任务跑着的时候，如果点过「打开番茄后台窗口」等功能，\n软件会收不到任务的\"心跳\"，12 分钟后误判卡死、强制关浏览器收场。\n\n本次修复：\n✅ 任务心跳改为直连，不再受其他操作影响——跑文时随便开窗口、切页面都不会再被误杀\n✅ 顺带修复跑长任务时日志偶发丢失的问题\n\n如果你遇到过\"发到一半自己停了\"的情况，这个版本就是为你修的。",
+  "sha256": "aaefa154fa845c5e055acba800d57181bca98cef14e9cabc9536bc4209c28c82",
+  "size": 12757699,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "7bb63620d734d1f36212725d969479391821ab1a4bababc6b4e21b099fcb7150",
-      "size": 12757811
+      "sha256": "aaefa154fa845c5e055acba800d57181bca98cef14e9cabc9536bc4209c28c82",
+      "size": 12757699
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "d62231ee7a84139a968cddd4fd78e7b6a745c32dce7c2525bce7c094d1108cf1",
-    "size": 216221106,
+    "sha256": "189a9358842aa29984d9fb55c3c4820efca4a9970c8ddc9b83cf4fdb4457a021",
+    "size": 216221779,
     "parts": [
       {
         "file": "bridge.z01",
@@ -38,50 +38,50 @@
       },
       {
         "file": "bridge.z05",
-        "sha256": "3edd3a09be8287dc0356bf698b3c3ec696373479d9ed239714d4665ea10947bc",
+        "sha256": "fa0090cb8d25cac2017144a2e50b50fe95fb3976f77d854c182b587c019d116d",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "fa64944e52f9740d97f40a8af76b3f1a4360d50048fa636cab2975121fd73c5d",
+        "sha256": "3288bec5ddcaef11e2e7d04ca25ab2a3e2c0a506d16e95920afb3c86c36b605e",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "424eb8f2b18844a15fefb24266c11d9f8df5129d2bf7e6300e7cfc544ae48c28",
+        "sha256": "a71a0df015f44b08d835c4fb3eec31a4f8fdad91adb76c4c909e5f53516dc522",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "e704aa8be256de62f29933e5216066b5d6ee20858bb4dbf8c9119ae20a0887a7",
+        "sha256": "5d4b6d972df415ce48b87de527901005758c498bfa0b127b1892e3e24db4303d",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "23cca60bcd8e98f4b5bd0d10a73e83119a641f350665256f074c3157c5bed955",
+        "sha256": "0375c93eb56a0ca8ac416de65b0d084fbcfb929ed79ee0d5d301f53ba87aec9a",
         "size": 16777216
       },
       {
         "file": "bridge.z10",
-        "sha256": "23499bda44acfe1f591ccdf84228b54a8dc56b74d4b6f69c00ef3e09423a71ca",
+        "sha256": "a76dc280ec1169a09f33039a7944c8e0ce88bbcb0f46037a13549693bb077126",
         "size": 16777216
       },
       {
         "file": "bridge.z11",
-        "sha256": "c27a513945b065a9051235e3366fee6b8654554954d09d8314e2af8c264e6705",
+        "sha256": "27b627e97f6b157039bd343f96a246cdd3401db86924fd638608c3b97113dbf7",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "0a5079d223201ba79c838f11f6fdb7d777883b41d58165c2b3a227aa7d66cd66",
+        "sha256": "12d78c92ec03160299cfc147ee1e6e34405870e5597f3040053529334291e49e",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "348346049bf123eb968e62ed85e8d4961cdbcbb71b4e5982fe76efac5f443ec8",
-        "size": 14894514
+        "sha256": "1451ff7d884eef1d25ffb279a2f5937fb936b7ef5cdc3ee84bd3612fc3b47563",
+        "size": 14895187
       }
     ]
   },
-  "sig": "AstIoL4bQyVcuzO93a1ZeXDkO08f9yEeCNNWNLm5Ac9J9iHvMAyUzkE+v5XA8NrXTei1v8+/u71dcPVoU/icCA=="
+  "sig": "0ewy95LERMqNF6r2kXWmovVZRKB5jtocuz3npeT15j1dUEF72cphvpqau30XfLf1cUEv+SQoBnOfVijfg+thAA=="
 }
