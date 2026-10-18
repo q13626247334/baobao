@@ -1,13 +1,13 @@
 {
-  "version": "3.2.11",
-  "notes": "3.2.11 更新内容：\n\n【修复】恢复多开功能\n上一版改动导致双击图标无法多开，现已恢复为原来的弹窗选择：\n想多开：点「打开新窗口」\n想找回原来的窗口：点「回到已有窗口」\n\n给大家造成不便非常抱歉，建议大家都更新到这一版。",
-  "sha256": "dbf9ea33a4bce0db5b6d60acc08d538d5bb6a706a1d0424217b62e980a7c74ee",
-  "size": 12759527,
+  "version": "3.3",
+  "notes": "3.3 更新内容：\n\n【修复】多开功能完全恢复\n上一版双击图标无法多开，现已修复。\n双击桌面图标 → 弹出选择：\n想多开 → 点「打开新窗口」\n想找回原来的窗口 → 点「回到已有窗口」\n\n给大家带来不便非常抱歉，建议大家都更新到这一版。",
+  "sha256": "e6e9712812b3f117b7d8948b660127621997a24af42f4a964ca746364010d212",
+  "size": 12760341,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "dbf9ea33a4bce0db5b6d60acc08d538d5bb6a706a1d0424217b62e980a7c74ee",
-      "size": 12759527
+      "sha256": "e6e9712812b3f117b7d8948b660127621997a24af42f4a964ca746364010d212",
+      "size": 12760341
     }
   ],
   "removed": [],
@@ -88,5 +88,5 @@
       }
     ]
   },
-  "sig": "b9XAD0AmeFTqPKVgrybou7Q3AkuxULLAYVHJD0cFDXiGh6B5xAriIjL+IVkW9R4tJzbXQl+mTdQ6+NpVNub6Bw=="
+  "sig": "XrM2h7f8PFuf7zbkNb5IVzS8XLUzspAN6o+2lkwYINxe7zNy1FXxlgi7MYRrC92J4OXDoSFq75b7vviTC8xfAw=="
 }
