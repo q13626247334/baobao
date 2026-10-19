@@ -1,92 +1,16 @@
 {
-  "version": "3.3",
-  "notes": "3.3 更新内容：\n\n【修复】多开功能完全恢复\n上一版双击图标无法多开，现已修复。\n双击桌面图标 → 弹出选择：\n想多开 → 点「打开新窗口」\n想找回原来的窗口 → 点「回到已有窗口」\n\n给大家带来不便非常抱歉，建议大家都更新到这一版。",
-  "sha256": "e6e9712812b3f117b7d8948b660127621997a24af42f4a964ca746364010d212",
-  "size": 12760341,
+  "version": "3.4",
+  "notes": "v3.4 投稿助手大升级：\n· 编辑库新增261个邮箱（七猫/纵横/起点阅文/塔读/17K/菠萝包等十几个平台，带收稿方向），清理失效邮箱\n· 编辑回复乱码修复（打开软件自动修复存量）\n· 多邮箱：可勾选本次用哪些邮箱、记录显示发件邮箱、失败带邮箱标识\n· 每邮箱每日上限（默认20封）+ 邮箱健康度（成功率告警）\n· 7天冷却提醒防重复投稿 + 发送失败30秒自动重试\n· 投稿不再需要笔名",
+  "sha256": "0e1461ce3613a0b4167fa2644f5decb613f1996c414ab51903dd6e9a7b7edca2",
+  "size": 329902,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "e6e9712812b3f117b7d8948b660127621997a24af42f4a964ca746364010d212",
-      "size": 12760341
+      "sha256": "0e1461ce3613a0b4167fa2644f5decb613f1996c414ab51903dd6e9a7b7edca2",
+      "size": 329902
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "bridge": {
-    "sha256": "42724b113440314c061dcedca87ea76059a1dc29903ddf8e7ab0cbab45118b81",
-    "size": 221869382,
-    "parts": [
-      {
-        "file": "bridge.z01",
-        "sha256": "6e2588b2502e04bfdee952cfbc53536fc85f23fee3d81575dc29a4af94354faf",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z02",
-        "sha256": "f5a1a075dd72b0e9718a2f5cc5b2e267671912f6228218a9b0b29d0437d75776",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z03",
-        "sha256": "351b7c6c4e6752ae9b34ad293a518fb36e7b6ade52bec0cfd93441a48a03797f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z04",
-        "sha256": "abfa650add93eaa6cd9d60535837060fc808656b847d410aa7185e0cf7c9a859",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z05",
-        "sha256": "d59f6947e6476b6e0e04691f19870dd6fc35e5e2c53e810dfba8f5779f5077ba",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z06",
-        "sha256": "6780ab2184f32eea95aea69d2e9334a915f90782c10c1f21794549b8c3830559",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z07",
-        "sha256": "c0c7c56526d6de187b17e438279c28fd040805c310789a0013837c909915ab0f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z08",
-        "sha256": "62bdb7089c696c8d81d445f73965c3e574b4fa9aacb82a7cb7c1c38c8a1cb08b",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z09",
-        "sha256": "421fbda54a9bb76193db228afcfc226570b6a47734009025fae5efad189beae7",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z10",
-        "sha256": "fdcb19ae9f5407ea1af0f4925f34af6f460182042d43e93f6b5681a43429d223",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z11",
-        "sha256": "56c93e322dda144766b186688ad833050621a4d75ba138b7dc6248b7e89efaad",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z12",
-        "sha256": "8deb72885a3874299e49d5e87bc8fd2e84a5c9f65f158bdb68725184d8442397",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z13",
-        "sha256": "a67b0bd30d941dcc7464cec04ccbd198c4a4692382fa5c53f3d12c6ec6c5c938",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z14",
-        "sha256": "a6b2b30a4c2da9abea2f8f725462cf00b13f62b376a232c7963349ba17817f8c",
-        "size": 3765574
-      }
-    ]
-  },
-  "sig": "XrM2h7f8PFuf7zbkNb5IVzS8XLUzspAN6o+2lkwYINxe7zNy1FXxlgi7MYRrC92J4OXDoSFq75b7vviTC8xfAw=="
+  "sig": "OD6TSZ5DBW3TUshdDKyBZbhg3kxtw8/0t806K5GNcuJXab1CDmFGtX0WYI5qyk8LL6O7tadhhe2bzvlQdLcOBw=="
 }
