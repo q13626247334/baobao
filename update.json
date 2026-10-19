@@ -1,16 +1,16 @@
 {
   "version": "3.4",
   "notes": "v3.4 投稿助手大升级：\n· 编辑库新增261个邮箱（七猫/纵横/起点阅文/塔读/17K/菠萝包等十几个平台，带收稿方向），清理失效邮箱\n· 编辑回复乱码修复（打开软件自动修复存量）\n· 多邮箱：可勾选本次用哪些邮箱、记录显示发件邮箱、失败带邮箱标识\n· 每邮箱每日上限（默认20封）+ 邮箱健康度（成功率告警）\n· 7天冷却提醒防重复投稿 + 发送失败30秒自动重试\n· 投稿不再需要笔名",
-  "sha256": "ad274c67cea16615fca28692a50964bb5588f0d9fa6e07ea287320437d4c2858",
-  "size": 321078,
+  "sha256": "6ad617978d4551b5d256fb95efb7a4aa3c4368e0204a0511762a46dbb0cced1d",
+  "size": 304473,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "ad274c67cea16615fca28692a50964bb5588f0d9fa6e07ea287320437d4c2858",
-      "size": 321078
+      "sha256": "6ad617978d4551b5d256fb95efb7a4aa3c4368e0204a0511762a46dbb0cced1d",
+      "size": 304473
     }
   ],
   "removed": [],
   "min_version": "2.7.1",
-  "sig": "e+TCf9DEyAakUW44krQm7f120bcFXCp+Y0KAQuG4yDH4XnsrCWHWTHZ3bfnESJQ4G8hkL8rtnQeW4oLjzS+9Bg=="
+  "sig": "F6Ze73YRrgQoSGDM5CT2yiS3ibzj0owUmWzVUAmikpypzxfXp8CkF/aLZjdBsGWtBBJYrc2JcFFH7uUaCCL5Bw=="
 }
