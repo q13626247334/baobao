@@ -1,24 +1,24 @@
 {
   "version": "4.2",
   "notes": "【包包AI写作助手 v4.2 更新】\n\n1. 已发送留底：群发投稿后，每封邮件自动存一份到邮箱「已发送」文件夹（和 Foxmail 一样）。前提：发件邮箱和收信检测邮箱填同一个，且用授权码登录\n2. 打开智语失败只显示一个 err 的问题修复：现在会显示完整原因\n3. 之前用过的浏览器被卸载/移动后，软件自动改回系统 Edge 并提示，不再卡死\n4. 界面选的浏览器现在严格生效，不再被旧记录抢走\n5. 投稿结束后「投稿日志全屏霸页」修复：日志框固定高度，内容再多也只占底部一条\n6. 失效编辑名单同步：傻鱼-江流、作客-投稿组、塔读-yc（邮箱不存在/离职）\n\n更新方式：打开软件点右上角「检查更新」，按提示重启即可。",
-  "sha256": "3cc2906f45aeef9ffbe2a4e4888594adbbbf5cb6e22be8e360ab461fd161fd81",
-  "size": 308601,
+  "sha256": "296eeead033c6a79111635cbdf9ef3b29e9d928e3bce426ea50f55433849a0f2",
+  "size": 309338,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "3cc2906f45aeef9ffbe2a4e4888594adbbbf5cb6e22be8e360ab461fd161fd81",
-      "size": 308601
+      "sha256": "296eeead033c6a79111635cbdf9ef3b29e9d928e3bce426ea50f55433849a0f2",
+      "size": 309338
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "8b2cfebcd7d1c256f5c8c1d22ee60ccb9b309a145fcd76e754a0ce9ce4ee62be",
-    "size": 12778719,
+    "sha256": "92ae58bc1d6b26e5dbb748ca3860236a93d26e9de3e50e6c5464047365dfe641",
+    "size": 12779915,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "8b2cfebcd7d1c256f5c8c1d22ee60ccb9b309a145fcd76e754a0ce9ce4ee62be",
-        "size": 12778719
+        "sha256": "92ae58bc1d6b26e5dbb748ca3860236a93d26e9de3e50e6c5464047365dfe641",
+        "size": 12779915
       }
     ]
   },
@@ -104,5 +104,5 @@
       }
     ]
   },
-  "sig": "ntGglxyj1WD3V1K5Ub38dtHiIV1ZqFjWBfNMMoOhZfaoZDC18oOhQXKb7aL+OYI4sNUAocvSVuBvhjTm8yxRCw=="
+  "sig": "7tMmFM0+J/1pDWutO4uRQ+vdqLA0VV8+pOblxhpYucG3pCDi9ozVcUnC8mFl6dChg10N43fV8H6NaBuvF9OxCg=="
 }
