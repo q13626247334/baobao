@@ -1,31 +1,31 @@
 {
   "version": "4.3",
   "notes": "【v4.3 更新公告】\n\n📊 新增：下载进度条\n- 下载小说时显示粉色滚动进度条：百分比、第几章/共几章、当前章节名一目了然\n- 不再\"干等不知道在不在动\"，番茄直连和全网书源两条下载线都支持\n- 还有奔跑小女娃在线陪跑，💨扬尘都带上了，下载也有画面感\n\n✉️ 投稿优化\n- 编辑库勾选：选了女频长篇不会再跳出女频短篇\n- 「同平台只发一次」现在会清楚高亮实际选中的那位编辑，不再所有卡片全亮分不清\n\n✍️ AI 写作优化\n- 删掉「打开智语」旁的浏览器选择下拉（选自带浏览器打不开智语的根治）\n\n🛠 其他\n- 共同设置排版更紧凑、日志框加大、自动关机按钮上移，小屏幕也能看全\n- 日常稳定性优化\n\n更新方式：打开软件 → 点更新；或解压最新版 zip 覆盖。",
-  "sha256": "8a903369bf106768b3773d4f282753db5eb7fccf5327666194a1df97e875d031",
-  "size": 12788580,
+  "sha256": "9589b18d6c57577eecc8b67fabedd586246834bd493902993ca9b47090fe2494",
+  "size": 12787954,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "8a903369bf106768b3773d4f282753db5eb7fccf5327666194a1df97e875d031",
-      "size": 12788580
+      "sha256": "9589b18d6c57577eecc8b67fabedd586246834bd493902993ca9b47090fe2494",
+      "size": 12787954
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "8a903369bf106768b3773d4f282753db5eb7fccf5327666194a1df97e875d031",
-    "size": 12788580,
+    "sha256": "9589b18d6c57577eecc8b67fabedd586246834bd493902993ca9b47090fe2494",
+    "size": 12787954,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "8a903369bf106768b3773d4f282753db5eb7fccf5327666194a1df97e875d031",
-        "size": 12788580
+        "sha256": "9589b18d6c57577eecc8b67fabedd586246834bd493902993ca9b47090fe2494",
+        "size": 12787954
       }
     ]
   },
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "d7f4dbcdec75e578d6d7fad997cbaa9a0f8572fa4012b7514e18e5b6a78853a6",
-    "size": 241236942,
+    "sha256": "b064f61c3c43da193b42452febd36511c66a07da7bc789189587e6a8d7821dbd",
+    "size": 241251632,
     "parts": [
       {
         "file": "bridge.z01",
@@ -79,30 +79,30 @@
       },
       {
         "file": "bridge.z11",
-        "sha256": "f084767b046977adabdb56dceb14b0bc53a6eb480a7abd29e57fc2bd6d63068e",
+        "sha256": "48f61e696d221af5103a2a75d107a08da1b6cf9e7fe9fb9ff1f4fb18444562f2",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "ff66ed9e2710567da266b4f2126a95d28173c688205bf90796e89333d477a931",
+        "sha256": "7cf415d5f14f24a7e8ce9013b763c75d9cafb49aa03da5a4929e7c4707bc449a",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "c751fe815de56f8c3b295c02b312604988ea52e00d95ef122c357c47dd6ea192",
+        "sha256": "735714738211c70a041c138708acb4d96897115150cdb412b781baea70d77747",
         "size": 16777216
       },
       {
         "file": "bridge.z14",
-        "sha256": "23e491b0d6e862c814e61ba028d07a24079799e7c870da8029489a9abc7ec04a",
+        "sha256": "799621ff0faad799779c3b8048f0bf33a2086d64cfb3d5d6dacf5b3ac4448631",
         "size": 16777216
       },
       {
         "file": "bridge.z15",
-        "sha256": "3b86406030b34d1c3d76d778e8362d844422871d5821de34c795c63225348e01",
-        "size": 6355918
+        "sha256": "c6f71cc3ab8f996193cc0d226a05496008ba50543c5ffe22987b32109fb5c965",
+        "size": 6370608
       }
     ]
   },
-  "sig": "UhiBfAMLcy27YwVb2RgGY2gZiVOgLMIq0FJKGEyuTDTcFGexsmAj0VgOh9l0zEtyMdkQSqXDOmxoi/k68tsqCw=="
+  "sig": "UhQ51bsYDWxSNTwIiS2WQhFJU8vYBAc4lziA+J3CzaHjgggrUTf4vEyK+TrfBO1v9bTcymFAHb4dQl1qRyS4DQ=="
 }
