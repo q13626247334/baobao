@@ -1,123 +1,27 @@
 {
   "version": "4.5",
   "notes": "",
-  "sha256": "31ba33c8b168754c9ac9a9efca9cccc1ff6cae9ff05f692353364cb911c545b0",
-  "size": 348601,
+  "sha256": "90ef16460c9e142d72a4981e0b2850c5f9b992504054b0a6e4f8fe6afa8a0bb0",
+  "size": 330802,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "31ba33c8b168754c9ac9a9efca9cccc1ff6cae9ff05f692353364cb911c545b0",
-      "size": 348601
+      "sha256": "90ef16460c9e142d72a4981e0b2850c5f9b992504054b0a6e4f8fe6afa8a0bb0",
+      "size": 330802
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "e76b202647d9c98041d94e3838cf5cdda3c47daf69253b1ac8faae0302d670f6",
-    "size": 12803435,
+    "sha256": "a9385e0f136bb5b2c4460cde07eb72c7d968268311a80ad53f55742b20d34cab",
+    "size": 12803582,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "e76b202647d9c98041d94e3838cf5cdda3c47daf69253b1ac8faae0302d670f6",
-        "size": 12803435
+        "sha256": "a9385e0f136bb5b2c4460cde07eb72c7d968268311a80ad53f55742b20d34cab",
+        "size": 12803582
       }
     ]
   },
   "min_version": "2.7.1",
-  "bridge": {
-    "sha256": "586499ae9ab4eee7a61d4f3ffc614b1b0e3ab4c6f562e69869f97c2257b88a6c",
-    "size": 286469412,
-    "parts": [
-      {
-        "file": "bridge.z01",
-        "sha256": "a793d47e30f42f4ad6efbc8f4ff95273d0d615b1ee90d79534c9cb6c30216e1f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z02",
-        "sha256": "05063cf7180931c71ce336b0d3c89dd8f3f662590d1f5718d310f8363abb7bfa",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z03",
-        "sha256": "356e9869e7f16a7ebebf0c766cf8e3ad85ac3f7961e4ec098302f0ce726895e9",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z04",
-        "sha256": "4280cd6ed01771775690bc89ed6500793bddea463690773a2d9e8ecf5226fa42",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z05",
-        "sha256": "dd46cb6b6b5d36f5c379813f90083141e6a7083fcfd9ae6ce0d87e1d0322d111",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z06",
-        "sha256": "feef375c697164e424d672f6afd592cd60748b89e9c000fd9f4645d6cd58001c",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z07",
-        "sha256": "0c0c2efb3d53a4be57047aca3bb1fa923fc7db7e9bd5321d50e931041c8e9bb8",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z08",
-        "sha256": "10d7b02f26e69648bd8648763a253197b9576a982e95fe03da4df47814f670d7",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z09",
-        "sha256": "e2d6ac117dea5700de9722526870794b7775df8e1715587c6be2d89916cf788c",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z10",
-        "sha256": "0cda79c69ecd35015fe20d2b1c4c9dfbbdc68051000d4f32d3ff8f2d748656d5",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z11",
-        "sha256": "5a9ce712c0ff8439c1d7edd3b18eb6fc17811b66f94b8dfbe8ed0c45b7e099b3",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z12",
-        "sha256": "d41851fad63373de82ccacbc94ab3d427a7779713f7e95d6cb5baf8b1fff9101",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z13",
-        "sha256": "b86e1854ecf76e39d0cf65bed38ddc7c55a2943b0afa0a67b85ca4f274f1af1b",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z14",
-        "sha256": "a3612a78c5849b33b6a5013a11ed41ca94e4e2fe90e1f2c6573d04af552f220c",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z15",
-        "sha256": "e9afd3fdeb8bb44164a48aa5aa31e372ece09ec7314093c477c8474d71523093",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z16",
-        "sha256": "021aa7fedc98cc946c6369a7f963f4ea3714d24c76832d4e540f9d7f2af422b3",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z17",
-        "sha256": "821c9da9f9a5b6abdbc51da163d1cc2eeb099c81f711458ccc9c95d9073d0fb7",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z18",
-        "sha256": "99fd98101e67fd4cbd4079375c7255a5c9df4b32f874bbcb29ab6d759af1f8b1",
-        "size": 1256740
-      }
-    ]
-  },
-  "sig": "RDVRSyOhYAjaIawpR2Ldnc7F1Al+smnOLBnW07FBiGiocfx6e1KBGVCFZO/OZAeBfiWwZ+iikUgwPGbj44+QCg=="
+  "sig": "3VnSmhADB7k0lxdOqRRmViA17VsgKW9nxwDIuOc8vcIly2U1r1n/bsws0cZnYNjh/u+6OulfJL38dBRf034WAQ=="
 }
