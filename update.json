@@ -1,27 +1,108 @@
 {
-  "version": "4.4.1",
-  "notes": "【v4.4 更新公告】\n\n✉️ 投稿大升级：断点续发\n- 发到一半点了停止、软件关了、电脑断电，都不怕了\n- 下次点发送会提示「上次已完成 38/200 封」，一键从断点接着发，绝不重复投递\n- 也可以选丢弃旧进度重发，自己说了算\n\n🛡 邮箱健康守护\n- 某个发件邮箱连续失败 3 次自动停用并提醒（多半是授权码失效或被限制），不再全程空跑烧名单\n- 自动识别退信：收到 Mailer-DAEMON 退信会把对应编辑标「待核实」、记入邮箱退信数，微信也会提醒你\n- 设置页每个邮箱显示累计成功/失败/退信，哪个邮箱快被拉黑了如指掌\n\n📊 投稿复盘（战绩页）\n- 新增复盘卡片：编辑回复率、平均回复时长、各平台明细表\n- 哪些平台爱回稿、哪些石沉大海一目了然；样本不足自动标「样本小」，不忽悠\n\n🛠 其他\n- 下载进度条小女孩改成贴着进度条跑，不再来回晃眼\n- 优先全勤/保底平台带 ⭐ 标记和「福利」清单，投稿目标更精准\n- 日常稳定性优化\n\n更新方式：打开软件 → 点检查更新；或解压最新版 zip 覆盖（数据不会丢）。",
-  "sha256": "9d36b2e6b4c860c244994b5b24dba4617b55ab1058a1b7ab79d3f47457b071aa",
-  "size": 323650,
+  "version": "4.4.2",
+  "notes": "【v4.4.2 更新公告】\n\n🔍 下载搜索大优化\n- 番茄搜书更聪明：书名带《》书名号、空格也能搜准了；App 通道返回的书如果对不上书名，会自动再去搜索引擎找一圈，两边结果合并给你挑，不再被不相干的热书带偏\n- 全网书源兜底：11 个书源站都搜不到的书，现在会自动去搜索引擎把书页链接找回来，能下的书更多\n\n🛠 其他\n- 稳定性优化\n\n更新方式：打开软件 → 点检查更新（这次更新包含下载组件，安装包较大，下载会久一点，耐心等进度条跑完）；或解压最新版 zip 覆盖（数据不会丢）。",
+  "sha256": "cb24ecaadeaded8145e3f95a226750afb43c199b4b9fcc67faff7b6bf0a9a2fc",
+  "size": 306529,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "9d36b2e6b4c860c244994b5b24dba4617b55ab1058a1b7ab79d3f47457b071aa",
-      "size": 323650
+      "sha256": "cb24ecaadeaded8145e3f95a226750afb43c199b4b9fcc67faff7b6bf0a9a2fc",
+      "size": 306529
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "33a4e6caa1ebbfeed34e17c39ece9566d8362ba3ab4f8ba92f83336e93d463d5",
-    "size": 12795754,
+    "sha256": "fb8beb249e51fd87427de7ab0277079017cc0c727cbea81846e791303d268d31",
+    "size": 12795294,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "33a4e6caa1ebbfeed34e17c39ece9566d8362ba3ab4f8ba92f83336e93d463d5",
-        "size": 12795754
+        "sha256": "fb8beb249e51fd87427de7ab0277079017cc0c727cbea81846e791303d268d31",
+        "size": 12795294
       }
     ]
   },
   "min_version": "2.7.1",
-  "sig": "Q8HdbxrJlP3AX1xWIbycW1jGV2v2LBo2QLaJ6xI1uk/TaKtp1zgtHc6JoKJkxOupZQEE0P+b/sF8TEr4/zuUBA=="
+  "bridge": {
+    "sha256": "19ce7bc8ce097072e1685ab754caccba3eb64fcaf471227cc4d4fc0f36bd6ca8",
+    "size": 249100080,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "29c35fce60d197a4ebaf818462c4dc4d9cae6128fc00dc0dd1c2d928474b68df",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "f93b18027e46904fb12f278595d93501670392cb354bc4c86622860b6a55e91a",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "83431d5eba999713e288e10b00dac428a2d69957149958f1680fc4d39936fff6",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "2e949bbb55d3ffdda7444a27f54575f2af1b98bc2e1dd9481ec9ba9d7126fd3d",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "58c7bcf00bb436dce025ffd922b6050d0fd07f5f4ac718bd1da4226a4b13e97e",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "e47a5f1d932765b174f4f63cf90b619c3e9ee3144d50b9f3fd30a6077c5a78b0",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "7f50b93258fa2d8e99411b9bfefdaca2ebc4505abbb68e05adce510d2b966ede",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "0f55da3a5c739f8add2a7c5daa70a97b68fb968890075bc06c2e492b4bcb412e",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z09",
+        "sha256": "ea2bc0873980535d200464da8fc9bf429b375339864174b2b1935a9859331b04",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z10",
+        "sha256": "165871ce851db99c1992b87966eca0ffddfa3a502aa6f7b453764aa82f6f65c5",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z11",
+        "sha256": "c3b16302a13512a8bed4d9945dd47805acfb41a436b8292092a6d9540fc320b0",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z12",
+        "sha256": "555219f8d3aafa230f6b79254dd97105bd34addee0048d308e8c526e4637fcab",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z13",
+        "sha256": "62a50fe3919a7ce7d534282e56c1b2a5ff43a65a26e45052b874d004e7ec560d",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z14",
+        "sha256": "95a9195d85d3ca9545ae5d6724a3e9d20cfdf557e2874da3b31d70729dce40ed",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z15",
+        "sha256": "a18d96af877fb81b4b1f0eae720327c293d5c0c41b4cfea95810e8c44edc230b",
+        "size": 14219056
+      }
+    ]
+  },
+  "sig": "zfkeJIjAp8ScbM4sgXUALbFfr9zVEsH00RCAOZ2nKaEjFgRO27aaZaaxaTwKqJDT67637g2Tvzqx5y/zqzTXCg=="
 }
