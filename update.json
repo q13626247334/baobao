@@ -1,31 +1,31 @@
 {
-  "version": "4.4.3",
-  "notes": "🎀 包包AI写作助手 v4.4.3 更新啦 🎀\n\n【新功能】\n1. 发布进度条：番茄发文页顶部通栏进度卡，完本/排期/立即发布全程「已发 X/Y 章」逐章可见，后台跑没跑一目了然\n2. 全局任务横幅：下载/发布/拆书/抓榜/群发等耗时任务执行时，页面顶部置顶提醒「请勿重复点击、不要重启软件」，跑完自动消失\n3. 防手痒禁点：任务在跑时只锁它自己区域的按钮（下载锁下载页、群发锁投稿页），重复点弹提示气泡，别的任务照常用，停止键永远能点\n4. 下载进度条小女孩改成平滑往前走，不再原地踏步、也不来回跑；引擎下载阶段每 10 秒有保底心跳，进度条一直有动静\n5. 启动检测升级：如果磁盘上的软件比正在运行的版本新，启动时弹窗一键重启升级，不用手动找安装包\n\n【修复】\n6. 修复「导入大纲」永远弹「软件还没重启到新版」的误报\n7. 大纲快照分主号/小号双份存放，各管各的，共同设置里的快照库已移除；「当前窗口」状态移入各号卡片\n8. 细纲快照只在打开大纲滑窗时才存，不再误存\n9. 清理跑章日志里的英文乱码\n10. 完本模式：导入草稿期间每 30 秒播报进度等满 10 分钟；断点续传——重跑先扫描草稿箱已有章节，只补导缺的，永不重复上传；翻页收集有进度且页码不动时自动收工\n11. 投稿「已发送」备份更稳：兼容大小写差异和嵌套文件夹，找不到时列出实际文件夹名\n12. 投稿问候语不再带编辑名字（编辑常改名会尴尬），统一用「编辑您好/编辑老师」等礼貌称呼\n\n—— 包包 💗",
-  "sha256": "eefabbc7dbecf0289cb675625d3cd7c32ab8669eab076a524876ed5b4b4e8672",
-  "size": 330067,
+  "version": "4.5",
+  "notes": "",
+  "sha256": "31ba33c8b168754c9ac9a9efca9cccc1ff6cae9ff05f692353364cb911c545b0",
+  "size": 348601,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "eefabbc7dbecf0289cb675625d3cd7c32ab8669eab076a524876ed5b4b4e8672",
-      "size": 330067
+      "sha256": "31ba33c8b168754c9ac9a9efca9cccc1ff6cae9ff05f692353364cb911c545b0",
+      "size": 348601
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "1464639b25cd779bcee6771de175cb381126d80246d87e831fd74814b447b90f",
-    "size": 12802171,
+    "sha256": "e76b202647d9c98041d94e3838cf5cdda3c47daf69253b1ac8faae0302d670f6",
+    "size": 12803435,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "1464639b25cd779bcee6771de175cb381126d80246d87e831fd74814b447b90f",
-        "size": 12802171
+        "sha256": "e76b202647d9c98041d94e3838cf5cdda3c47daf69253b1ac8faae0302d670f6",
+        "size": 12803435
       }
     ]
   },
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "3b9be136d811dad62a36ec5963f6617055dd619fbf94a86fe4491824f8784921",
-    "size": 265130618,
+    "sha256": "586499ae9ab4eee7a61d4f3ffc614b1b0e3ab4c6f562e69869f97c2257b88a6c",
+    "size": 286469412,
     "parts": [
       {
         "file": "bridge.z01",
@@ -64,50 +64,60 @@
       },
       {
         "file": "bridge.z08",
-        "sha256": "6992153e64cc47f9bf420ad983e6f028133db534ba0d6919930277606baffbd2",
+        "sha256": "10d7b02f26e69648bd8648763a253197b9576a982e95fe03da4df47814f670d7",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "ba0cf4ab82802bdce7686f42760e741a26a68906171d7a8488b7f3114c655eed",
+        "sha256": "e2d6ac117dea5700de9722526870794b7775df8e1715587c6be2d89916cf788c",
         "size": 16777216
       },
       {
         "file": "bridge.z10",
-        "sha256": "767aa149a532675563116837e0323bfae6caef639d9604c6750656586ec6fc67",
+        "sha256": "0cda79c69ecd35015fe20d2b1c4c9dfbbdc68051000d4f32d3ff8f2d748656d5",
         "size": 16777216
       },
       {
         "file": "bridge.z11",
-        "sha256": "cdce6017d05e13f73729c06baab120de051cec0c2475db6dd27ed4487e78a15e",
+        "sha256": "5a9ce712c0ff8439c1d7edd3b18eb6fc17811b66f94b8dfbe8ed0c45b7e099b3",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "bddb9dd2228afce650f325af9d735658eb2cf04e8487e6559832b538c4bb4882",
+        "sha256": "d41851fad63373de82ccacbc94ab3d427a7779713f7e95d6cb5baf8b1fff9101",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "7a92372b4ab2ae80fe1fed53e6745e6e8f964d877ef26235aeb15f2eb38b620c",
+        "sha256": "b86e1854ecf76e39d0cf65bed38ddc7c55a2943b0afa0a67b85ca4f274f1af1b",
         "size": 16777216
       },
       {
         "file": "bridge.z14",
-        "sha256": "6108248c3b7d4de33c1d79bc50cfc57116a2c6f6fbcad3c61de8c4489c05dc24",
+        "sha256": "a3612a78c5849b33b6a5013a11ed41ca94e4e2fe90e1f2c6573d04af552f220c",
         "size": 16777216
       },
       {
         "file": "bridge.z15",
-        "sha256": "6c811a5422e76a1b401373e101d5bea63d2cfa674ba75fb176826cc3b26e0a27",
+        "sha256": "e9afd3fdeb8bb44164a48aa5aa31e372ece09ec7314093c477c8474d71523093",
         "size": 16777216
       },
       {
         "file": "bridge.z16",
-        "sha256": "d7bac00970148cca24562b4925c8dabd00511c10ea6952eba4e06c271bce8d59",
-        "size": 13472378
+        "sha256": "021aa7fedc98cc946c6369a7f963f4ea3714d24c76832d4e540f9d7f2af422b3",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z17",
+        "sha256": "821c9da9f9a5b6abdbc51da163d1cc2eeb099c81f711458ccc9c95d9073d0fb7",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z18",
+        "sha256": "99fd98101e67fd4cbd4079375c7255a5c9df4b32f874bbcb29ab6d759af1f8b1",
+        "size": 1256740
       }
     ]
   },
-  "sig": "OYUBGcgHH5Ohb+7DRXLUirSFpqrox29R+sLLZeTaOpngOFqBx05geqYuYrn2pIJjYMLesuWIx6KDibcikt6jCA=="
+  "sig": "RDVRSyOhYAjaIawpR2Ldnc7F1Al+smnOLBnW07FBiGiocfx6e1KBGVCFZO/OZAeBfiWwZ+iikUgwPGbj44+QCg=="
 }
