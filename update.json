@@ -1,27 +1,143 @@
 {
-  "version": "4.5",
-  "notes": "",
-  "sha256": "90ef16460c9e142d72a4981e0b2850c5f9b992504054b0a6e4f8fe6afa8a0bb0",
-  "size": 330802,
+  "version": "4.6",
+  "notes": "【番茄发文大改版 · A/B 双开】\n1. A/B 双账号流水线回归：两张卡并排，各自选账号、各自发各自的书，双开互不打架；发布模式、发文时间各卡独立\n2. 发布模式新增「🏁 完本模式」：下拉框最后一项，选中点一键发布即整书立即发完，不排期（修复了选它会跳回定时的 bug）\n3. 「发布历史」删除：每成功一章实时出现在「发文日志」，更直观；失败照旧红色警报\n4. 重复标题提前识别：发布前预检，撞名 🚨 报错停止并写明原因，绝不再静默跳过\n5. 发布完自动关机、隐藏浏览器改为顶部小开关；打开后台发布中也能随时看数据\n6. 逐章成功日志 + 完本/排期全程提速（验真等待大幅缩短，审核延迟的章下轮自动跳过）",
+  "sha256": "fc72cf3805dbaab122f0f1f501aab17536a2470eea99eb6c9a6817cd75b0913e",
+  "size": 348217,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "90ef16460c9e142d72a4981e0b2850c5f9b992504054b0a6e4f8fe6afa8a0bb0",
-      "size": 330802
+      "sha256": "fc72cf3805dbaab122f0f1f501aab17536a2470eea99eb6c9a6817cd75b0913e",
+      "size": 348217
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "a9385e0f136bb5b2c4460cde07eb72c7d968268311a80ad53f55742b20d34cab",
-    "size": 12803582,
+    "sha256": "e31c8b673984e31e4f7b31333cf78894b0a939ce4198d1ceae930c08bea81033",
+    "size": 12803051,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "a9385e0f136bb5b2c4460cde07eb72c7d968268311a80ad53f55742b20d34cab",
-        "size": 12803582
+        "sha256": "e31c8b673984e31e4f7b31333cf78894b0a939ce4198d1ceae930c08bea81033",
+        "size": 12803051
       }
     ]
   },
   "min_version": "2.7.1",
-  "sig": "3VnSmhADB7k0lxdOqRRmViA17VsgKW9nxwDIuOc8vcIly2U1r1n/bsws0cZnYNjh/u+6OulfJL38dBRf034WAQ=="
+  "bridge": {
+    "sha256": "d8d22b24bd90ccf439beed270f6947bdc9c320fb6c6dd17a85c905b1e2ac8d04",
+    "size": 364761949,
+    "parts": [
+      {
+        "file": "bridge.z01",
+        "sha256": "a793d47e30f42f4ad6efbc8f4ff95273d0d615b1ee90d79534c9cb6c30216e1f",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z02",
+        "sha256": "05063cf7180931c71ce336b0d3c89dd8f3f662590d1f5718d310f8363abb7bfa",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z03",
+        "sha256": "356e9869e7f16a7ebebf0c766cf8e3ad85ac3f7961e4ec098302f0ce726895e9",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z04",
+        "sha256": "4280cd6ed01771775690bc89ed6500793bddea463690773a2d9e8ecf5226fa42",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z05",
+        "sha256": "dd46cb6b6b5d36f5c379813f90083141e6a7083fcfd9ae6ce0d87e1d0322d111",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z06",
+        "sha256": "feef375c697164e424d672f6afd592cd60748b89e9c000fd9f4645d6cd58001c",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z07",
+        "sha256": "0c0c2efb3d53a4be57047aca3bb1fa923fc7db7e9bd5321d50e931041c8e9bb8",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z08",
+        "sha256": "483091be74776405e67e37093d112fbb32f7d19b70035210423a85e40086016d",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z09",
+        "sha256": "32b709a79f2a0e9e7651b0b31706e22072a8cf6eae4790b058f91d4b8b97c71c",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z10",
+        "sha256": "a1e0e87bd64a250c95c0006c6048faccf7c55b960fe9081134c9766d2dc64a26",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z11",
+        "sha256": "47713378f20b8f8a02da6dea396184de7c4d9c4df4e6deb7c4a555ab0dba9adc",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z12",
+        "sha256": "cd65ed9b99469053f12b3b153644969f6728e5ecf1006b0348be3c45c7cf35d8",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z13",
+        "sha256": "6631e04ac7f22c557e3f6d8759779de8818c7a99988c3c0d69f7001da709beb2",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z14",
+        "sha256": "e132e238303456b05bc4d7f8344c569b8bf299d5782e054194e7b645ba5b11cf",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z15",
+        "sha256": "af45389258dde0d88442744f769e5f6b523636d9b9355ebe385b30bdfe476b7b",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z16",
+        "sha256": "5554bded02abb8c4e103ba1c4e3cb0acc384e815a2c4eb005711e4440bc2c68a",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z17",
+        "sha256": "9eb444003ec5b03a8bada3cbb0de64838496139103c1bdb2094f869f6f4dc2cb",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z18",
+        "sha256": "90a9de4b1abd98a9a325d35963f586b46433d350f12088a307050c645cf900e1",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z19",
+        "sha256": "bea2799812b0b6f7822561bd2c2bf560a1e17c26d4cb3fce938967cefa5580ad",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z20",
+        "sha256": "a9c4b9cc779edc2b7d47ccea41b350a06b9f9a42f02489f8b90ae234bba5cf32",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z21",
+        "sha256": "206de0a26f651cb51e15a11f1fbc5e77fbadfb7e4d00a7370230ac174552367b",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z22",
+        "sha256": "3ce874d6ca6f8b424ed851a0a9400919cc8c55196fb37744f2f2908cee557bfa",
+        "size": 12440413
+      }
+    ]
+  },
+  "sig": "sBruC6xUiKmFfCt/fA8Wp+LZ70sUX8xGnqav0IrOcW66FjTUw60kCj4bGXOKYpuYK2ay8fSYnlPMegnhcuZZBA=="
 }
