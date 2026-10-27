@@ -1,24 +1,24 @@
 {
-  "version": "5.4",
-  "notes": "番茄榜单抓取不再弹出浏览器窗口（移出屏幕外，照常抓满30本）；发布章节新增步骤日志（打开草稿→下一步→基础检测→确认提交→验真逐步可见），发布卡住一眼定位",
-  "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
-  "size": 22,
+  "version": "5.5",
+  "notes": "修复女频等分类榜空白：分类榜完整数据在番茄「全部」线路，抓不到时自动切换补满30本",
+  "sha256": "8be24239201d98627bff816aa6876259ccdcf00230656a0d811a3b7342a31ef8",
+  "size": 323119,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
-      "size": 22
+      "sha256": "8be24239201d98627bff816aa6876259ccdcf00230656a0d811a3b7342a31ef8",
+      "size": 323119
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "1936f2eb81c3dc9f4ae2a5852e98fd7dbfe526686bcf2cf92af2bd420b8dc6e3",
-    "size": 12812891,
+    "sha256": "50c06c56a66e0fd535699ba878fb088be2b71ccb408a2354179bc004ca3fb9e3",
+    "size": 12812848,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "1936f2eb81c3dc9f4ae2a5852e98fd7dbfe526686bcf2cf92af2bd420b8dc6e3",
-        "size": 12812891
+        "sha256": "50c06c56a66e0fd535699ba878fb088be2b71ccb408a2354179bc004ca3fb9e3",
+        "size": 12812848
       }
     ]
   },
@@ -74,5 +74,5 @@
       }
     ]
   },
-  "sig": "bHP2ufx/f7QbrBiLvQhLexS1hx2haWEsPQJW+J+iTFxKdK9E5z+LDkw2W6nfk0yBhve2Pq9RiGyEjF9wDKQ5BQ=="
+  "sig": "qAH+3aBJkOeB0XOETqWlKvgBPUfg4liNnUVHV/PnkxyKehJwNbgTPHAlevTPIZbsxU9EvRV1NrHfHa3lM6PoCw=="
 }
