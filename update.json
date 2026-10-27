@@ -1,78 +1,78 @@
 {
-  "version": "5.3",
-  "notes": "番茄榜单抓满30本：官网改懒加载后第11~30本由真实浏览器滚动自动加载后拦截获取（修复无头浏览器抓不全的问题）",
-  "sha256": "e75ff27389c027c59694b6499119e7a5fab6e09648f6f3525c55bca9af46987e",
-  "size": 323170,
+  "version": "5.4",
+  "notes": "番茄榜单抓取不再弹出浏览器窗口（移出屏幕外，照常抓满30本）；发布章节新增步骤日志（打开草稿→下一步→基础检测→确认提交→验真逐步可见），发布卡住一眼定位",
+  "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+  "size": 22,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "e75ff27389c027c59694b6499119e7a5fab6e09648f6f3525c55bca9af46987e",
-      "size": 323170
+      "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "size": 22
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "95d06abfa51fe2881450727899f6dd799478f8baf4496d12bd0dd31ee318f7e1",
-    "size": 12812899,
+    "sha256": "1936f2eb81c3dc9f4ae2a5852e98fd7dbfe526686bcf2cf92af2bd420b8dc6e3",
+    "size": 12812891,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "95d06abfa51fe2881450727899f6dd799478f8baf4496d12bd0dd31ee318f7e1",
-        "size": 12812899
+        "sha256": "1936f2eb81c3dc9f4ae2a5852e98fd7dbfe526686bcf2cf92af2bd420b8dc6e3",
+        "size": 12812891
       }
     ]
   },
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "583a61a104d7d6c53aa361d5404c6c048b733e0dbc54bb9a10c5e4804ba2ee1f",
-    "size": 147653965,
+    "sha256": "a92570157795d9861b4b90f0cb19cefd735d261ff94c5e0f07624e4a1e8440de",
+    "size": 147654523,
     "parts": [
       {
         "file": "bridge.z01",
-        "sha256": "b62a96c42939709b26b32820237168164846a6f0c2f7f067462a218a7f0db8fe",
+        "sha256": "6afba547ce8f67b4d66bb4d3e663fa31384008cff8a133646b09507f4768110f",
         "size": 16777216
       },
       {
         "file": "bridge.z02",
-        "sha256": "2822ce8c2cbba6444086773613f2d43d6bec8e3b9ea1e758fb7f7095577b73c5",
+        "sha256": "f06de939e211aba1edff7ed11496ae2556de1bfd76b3ae54b8020fe2b0d806d7",
         "size": 16777216
       },
       {
         "file": "bridge.z03",
-        "sha256": "542bbd83d818f788162077ef059faea8ffa0a7eaa59627b2120385e0da3aef32",
+        "sha256": "626d25805b52b394c20c557a6c5c4c4c9569942170c9658251231d390b48ac30",
         "size": 16777216
       },
       {
         "file": "bridge.z04",
-        "sha256": "2fd5e13e85d08bdc4ebda0ff9484d4fdc91bb8ca9ebdd573b722e17600a5c975",
+        "sha256": "d9966c7ba653632123cc95977eeaaf399784e9be94e2f21b3d1a80218b96fed6",
         "size": 16777216
       },
       {
         "file": "bridge.z05",
-        "sha256": "73c96e5985fc1569585d3582ad6ad951a5a208e6988e06d038a8bd089a13d265",
+        "sha256": "7cac1db69341329f647a1788b277638fe912f8c10a77d85637a1b669642346e6",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "b17d12129e295fdb92a3c2ca9388fdbc8c3ac3324ff6ed33fd25c894750bbbea",
+        "sha256": "4bfe028e7ff1325f0fdcd912f5a3098823d5d330c8e281969ef982aecff63441",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "f6bb5a7fd814bfd6d298c40c18f57d51ea6b0a7f880f088b2318cba49638b08d",
+        "sha256": "a64f89dbacdae4a05962f93dd4e692340c8fff5c3def56918eafc49b874ea485",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "5e5614898e9c367b22bfd359f111c9565e5c9a4c301b39dbc7266c553f0cdfed",
+        "sha256": "22afeecdce858461d19c34d7f23607986af85ce4620bc584622cf2ebca74e7b5",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "c30eb917b612e2ba56487baedbec89fc53b96c963258804a31e14f7e7109897f",
-        "size": 13436237
+        "sha256": "6563aba3958c15b034d9dce639b8149e370b64b36b53493073644e78a8c8a087",
+        "size": 13436795
       }
     ]
   },
-  "sig": "iY18MCHjmBLzYEvgCz+Gyl/0lAk8jaSLXc+XHxEIAGSfe+edZSVBJ/D+UkKNQYCxLSUexubmyxlgbbKmjd8MCg=="
+  "sig": "bHP2ufx/f7QbrBiLvQhLexS1hx2haWEsPQJW+J+iTFxKdK9E5z+LDkw2W6nfk0yBhve2Pq9RiGyEjF9wDKQ5BQ=="
 }
