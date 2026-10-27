@@ -1,24 +1,24 @@
 {
-  "version": "5.5",
-  "notes": "修复女频等分类榜空白：分类榜完整数据在番茄「全部」线路，抓不到时自动切换补满30本",
-  "sha256": "8be24239201d98627bff816aa6876259ccdcf00230656a0d811a3b7342a31ef8",
-  "size": 323119,
+  "version": "5.6",
+  "notes": "新增「写完一章自动概要+关联」：每章跑完自动生成本章概要（提示词锁定【包包】生成概要）并点替换，再给下一章自动勾选手选章节——内容最近N章+概要再往前M章滑动窗口（当前章永远不勾，开头章数不够只勾内容），共同设置里可开关和调章数；批量拆书移到共同设置，跟随最近点「打开智语」的那台跑（主号开的用主号、小号开的用小号）；修复番茄榜单新书榜/阅读榜标签对调、不再错误合并两个榜",
+  "sha256": "624b4b76de9f7a11c167700ef17d20d6a61ee09165f8cf798e18d01624575318",
+  "size": 344618,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "8be24239201d98627bff816aa6876259ccdcf00230656a0d811a3b7342a31ef8",
-      "size": 323119
+      "sha256": "624b4b76de9f7a11c167700ef17d20d6a61ee09165f8cf798e18d01624575318",
+      "size": 344618
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "50c06c56a66e0fd535699ba878fb088be2b71ccb408a2354179bc004ca3fb9e3",
-    "size": 12812848,
+    "sha256": "63f1063787ca3945b2725fb2973b57a2234d419369ff024276b30a68e480aa98",
+    "size": 12817288,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "50c06c56a66e0fd535699ba878fb088be2b71ccb408a2354179bc004ca3fb9e3",
-        "size": 12812848
+        "sha256": "63f1063787ca3945b2725fb2973b57a2234d419369ff024276b30a68e480aa98",
+        "size": 12817288
       }
     ]
   },
@@ -74,5 +74,5 @@
       }
     ]
   },
-  "sig": "qAH+3aBJkOeB0XOETqWlKvgBPUfg4liNnUVHV/PnkxyKehJwNbgTPHAlevTPIZbsxU9EvRV1NrHfHa3lM6PoCw=="
+  "sig": "ekRM47XumU2YA2vIZ9hPHgQH3h9rFlEuTizTQIvN+yIxwYKJo3RzgZczisQqVwKFuB0vsdbFIwCVtNQW6KxNCA=="
 }
