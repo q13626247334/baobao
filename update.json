@@ -1,24 +1,24 @@
 {
-  "version": "5.2",
-  "notes": "修复番茄榜单：官网榜单页改版导致只抓到几本或报失败，已改用新数据口（阅读榜+新书榜合并，热门约20本）；冷门题材官网本来就只有几本属正常",
-  "sha256": "2acf4ba507bb88d6dbfa423a72c680c96d52d4fb9103612c0496feac78b234ce",
-  "size": 340214,
+  "version": "5.3",
+  "notes": "番茄榜单抓满30本：官网改懒加载后第11~30本由真实浏览器滚动自动加载后拦截获取（修复无头浏览器抓不全的问题）",
+  "sha256": "e75ff27389c027c59694b6499119e7a5fab6e09648f6f3525c55bca9af46987e",
+  "size": 323170,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "2acf4ba507bb88d6dbfa423a72c680c96d52d4fb9103612c0496feac78b234ce",
-      "size": 340214
+      "sha256": "e75ff27389c027c59694b6499119e7a5fab6e09648f6f3525c55bca9af46987e",
+      "size": 323170
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "77f3200f901876b6244c2e64cb5ec7ed98ee07e56c4443bbf39308e2e9663f21",
-    "size": 12812884,
+    "sha256": "95d06abfa51fe2881450727899f6dd799478f8baf4496d12bd0dd31ee318f7e1",
+    "size": 12812899,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "77f3200f901876b6244c2e64cb5ec7ed98ee07e56c4443bbf39308e2e9663f21",
-        "size": 12812884
+        "sha256": "95d06abfa51fe2881450727899f6dd799478f8baf4496d12bd0dd31ee318f7e1",
+        "size": 12812899
       }
     ]
   },
@@ -74,5 +74,5 @@
       }
     ]
   },
-  "sig": "CzS74N7l0pngTVco2tD6OpafgjB1bvzLjKKI/F4b4QCRMocrX6leRFV1TAmyybe+4l4FDWqqVe5IyTXCXa9lAQ=="
+  "sig": "iY18MCHjmBLzYEvgCz+Gyl/0lAk8jaSLXc+XHxEIAGSfe+edZSVBJ/D+UkKNQYCxLSUexubmyxlgbbKmjd8MCg=="
 }
