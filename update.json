@@ -1,128 +1,78 @@
 {
-  "version": "5.0",
-  "notes": "",
-  "sha256": "47cd5465409d4c8e3bc1bac579593d1a54af0301b22ff70d8b4deef59b30ce85",
-  "size": 332622,
+  "version": "5.1",
+  "notes": "修复「浏览并拆分」只体检不拆分的严重bug（4.8起新拆的书发不了文）；下载小人在全网书源阶段也会跑+动画重做；删前文大纲滑窗（改在智语里关联概要）；番茄发文按钮统一大小；新增批量拆书",
+  "sha256": "42ea1885144b191e4f5b9038609582211c25abc54ca9e8d851a4d25e5a1bbd56",
+  "size": 357395,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "47cd5465409d4c8e3bc1bac579593d1a54af0301b22ff70d8b4deef59b30ce85",
-      "size": 332622
+      "sha256": "42ea1885144b191e4f5b9038609582211c25abc54ca9e8d851a4d25e5a1bbd56",
+      "size": 357395
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "1ead42e657d230e868cf28b89872616cef5ea1a55be7d50e34ebaf022f71388d",
-    "size": 12805072,
+    "sha256": "9651bb45012d331cce7f366300b83e182314c78dad8b28400882be67d12f10de",
+    "size": 12812229,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "1ead42e657d230e868cf28b89872616cef5ea1a55be7d50e34ebaf022f71388d",
-        "size": 12805072
+        "sha256": "9651bb45012d331cce7f366300b83e182314c78dad8b28400882be67d12f10de",
+        "size": 12812229
       }
     ]
   },
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "673684aa4dd848353742c60d32bed374142ae0ca2fc4f89c06189aaaf3cf4d30",
-    "size": 302740992,
+    "sha256": "b86c11a506dde7760b5609ea20201cff171ea76e55f6233e85974ccb2878d043",
+    "size": 147643722,
     "parts": [
       {
         "file": "bridge.z01",
-        "sha256": "30def527995c97b5239ec278e214c325473e8b4c98a980b58c50b7f3e3ac8543",
+        "sha256": "6e850acfafb401545a125ae7b42e831a30f041b3b0940e709ecde87ddbd11adb",
         "size": 16777216
       },
       {
         "file": "bridge.z02",
-        "sha256": "b56aaddb6667bd688ea00bcd6ea27c30d6354fe3d6d13f49cb12dc3cc66a0830",
+        "sha256": "647848a525513e37c1e2cc3d1e8839953468d4018e9ff8cfbffe9337d8defcec",
         "size": 16777216
       },
       {
         "file": "bridge.z03",
-        "sha256": "fecfc22f17c543472c15846af3fd77a447be03ba85a9b9f49b2385e1d20fa3fc",
+        "sha256": "4b881271b19c90c3d6d91a25da22c00909cd9f41ccc787970e83b05baf948ee8",
         "size": 16777216
       },
       {
         "file": "bridge.z04",
-        "sha256": "68f6867a2e0d30bc100fccd27a8e6cd1bc5fc05fa10f60d6a1e2af292cc80af7",
+        "sha256": "09a1d72e100d79198c440372009b1c79a9f108ace0c1ea83d26e7e99860bae77",
         "size": 16777216
       },
       {
         "file": "bridge.z05",
-        "sha256": "3971631369e07a7be9157a8000e3d48332016716ce2bcbd2487750ed492872ea",
+        "sha256": "7ed4ec171a4f9309e2435cf33af7b16413ef21c7bef2088813671dc0746c027b",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "af3e47f74f5f499a502db4c0b05e3c551ab8058de0ab02e88672c803f94ee76d",
+        "sha256": "e4525f2eb3c07973d890cc4a431a4258b66b4d4ced7eed0a0bfab16b50048fa6",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "a5cf29a3a47faaaa70709d1627d5a8ae383708fc7f95253e0584dd2dc17fa583",
+        "sha256": "29dac6640886fb39eb18e47bb24d5a2ef233fa6e2fd86921ecb082c540f2c2ac",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "e212983f83715ae164bd2c9031e11021708c6cc7d2d8e5f39c5eea968e770f43",
+        "sha256": "d6fb863f45faf2788e984fb7443a007591b52eab995c47703044431b9e9a7334",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "9138eb39a2685e8417218deb817e12ca72a3a7a18aeaefe10c01f7cfc8a08598",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z10",
-        "sha256": "74d05b1985da575b1e80ce6aec7e4327df5ea53a16bb9b1e89999294e4e215db",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z11",
-        "sha256": "ea5d4fce25236e0b63c216c6f6ca5d7bba0facf9d9e66318616962659d8642ca",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z12",
-        "sha256": "242b137847d96c50457a5291bc4516734f3efefdc9d36986110404376ba7c244",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z13",
-        "sha256": "1c26db110f8fecd0fc9ca46813aa31d82f92e41a8339e93d4c8b5fb8e3749ef2",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z14",
-        "sha256": "358b4e64a2b632a375946d4a8d759fbf83dd1409a3504fcb0384b10d3c35633b",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z15",
-        "sha256": "99cfebd8de274ac13c9e86205cab810f680f9cc9be420235fca2df2a3c461b08",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z16",
-        "sha256": "8428b398894a4b3f21da072e7298d2e20dbc4db90589fd8ec9a498734b59349f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z17",
-        "sha256": "0d4723538ec113e0ca1b96304cda7e525c8bf77a21c4b255ef9fb4423b41692a",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z18",
-        "sha256": "8d9c5cad7ebafdd9f95751afe4269d0fdf0b1fcb8f4fc086b979664bcde2c5fc",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z19",
-        "sha256": "54903eda1ff5af5426c646e6af47224ffce9d803c88e8535196c1ab76e1c7015",
-        "size": 751104
+        "sha256": "9c2331bfa7b01fc15e5e58baa5c603b35292b4f15b92c978fda84f1115bdd950",
+        "size": 13425994
       }
     ]
   },
-  "sig": "v2I9UR0n/YkMiYnh/jU/CMz5YpVSRxUWmooaAV0zrLAsYV2VV/qdswTQ/5oeogoD7/f8w8un2Ff/NtMfxs2TCA=="
+  "sig": "Md8AoVLHW/uLPGnxmSyXi7lQ7rK2MT+8AGkt0RymD6LSmGC9kSRuItIj00KDVTVNoPIjpyFQCF/WuueMiOVwCg=="
 }
