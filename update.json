@@ -1,31 +1,31 @@
 {
-  "version": "4.9",
+  "version": "5.0",
   "notes": "",
-  "sha256": "cb2e0d92e062b1787eeb417940425138e6326fd42091b9eba5b405a3198138e0",
-  "size": 314736,
+  "sha256": "47cd5465409d4c8e3bc1bac579593d1a54af0301b22ff70d8b4deef59b30ce85",
+  "size": 332622,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "cb2e0d92e062b1787eeb417940425138e6326fd42091b9eba5b405a3198138e0",
-      "size": 314736
+      "sha256": "47cd5465409d4c8e3bc1bac579593d1a54af0301b22ff70d8b4deef59b30ce85",
+      "size": 332622
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "5a108a4e6a772a815f62dfbf436577f0a74cc16f4734803dbfd6170d528d0229",
-    "size": 12804488,
+    "sha256": "1ead42e657d230e868cf28b89872616cef5ea1a55be7d50e34ebaf022f71388d",
+    "size": 12805072,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "5a108a4e6a772a815f62dfbf436577f0a74cc16f4734803dbfd6170d528d0229",
-        "size": 12804488
+        "sha256": "1ead42e657d230e868cf28b89872616cef5ea1a55be7d50e34ebaf022f71388d",
+        "size": 12805072
       }
     ]
   },
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "c7b097d9a2ee4b97fc60fb94234f8ef4ac14be2a5f2e509e55a845e226483ad3",
-    "size": 295536675,
+    "sha256": "673684aa4dd848353742c60d32bed374142ae0ca2fc4f89c06189aaaf3cf4d30",
+    "size": 302740992,
     "parts": [
       {
         "file": "bridge.z01",
@@ -39,85 +39,90 @@
       },
       {
         "file": "bridge.z03",
-        "sha256": "cc00baba9b1ef9b4bc7e9e3c0acab044669492039f9e435bbfc50c9dc8c6f12d",
+        "sha256": "fecfc22f17c543472c15846af3fd77a447be03ba85a9b9f49b2385e1d20fa3fc",
         "size": 16777216
       },
       {
         "file": "bridge.z04",
-        "sha256": "1e674d8369769f56b20fcd82ff3d05812b763ab161d39139ff79953273d1899e",
+        "sha256": "68f6867a2e0d30bc100fccd27a8e6cd1bc5fc05fa10f60d6a1e2af292cc80af7",
         "size": 16777216
       },
       {
         "file": "bridge.z05",
-        "sha256": "3b09f2dd549eba2b4780f35327fa42d248d27f7cdad142cde501b44080fb1e7c",
+        "sha256": "3971631369e07a7be9157a8000e3d48332016716ce2bcbd2487750ed492872ea",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "e8c1010191a4d5af56c469bbb91af9d8a660e4b93c8efa1039506a78833f6d7f",
+        "sha256": "af3e47f74f5f499a502db4c0b05e3c551ab8058de0ab02e88672c803f94ee76d",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "e98d45b9bfde335f8a79a05d5913d34ed2e9d095d11ac50d0ef645576ea09219",
+        "sha256": "a5cf29a3a47faaaa70709d1627d5a8ae383708fc7f95253e0584dd2dc17fa583",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "b50b4fa9c23a2fec54bc8e08762765aed9ecbe1f91d67f30e9aa474c03ef566a",
+        "sha256": "e212983f83715ae164bd2c9031e11021708c6cc7d2d8e5f39c5eea968e770f43",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "1d89490a66fefc0f59cf4afd3a5491aa4bb898a67b3743d40991f5a86f8e4a40",
+        "sha256": "9138eb39a2685e8417218deb817e12ca72a3a7a18aeaefe10c01f7cfc8a08598",
         "size": 16777216
       },
       {
         "file": "bridge.z10",
-        "sha256": "5f95faa5ce88d4df670c4c9cde29364978deeaef34e3b6c2d83a6a88d3b83dea",
+        "sha256": "74d05b1985da575b1e80ce6aec7e4327df5ea53a16bb9b1e89999294e4e215db",
         "size": 16777216
       },
       {
         "file": "bridge.z11",
-        "sha256": "1e5f2716e855be1ab911886edf05593abd01f618d386dfce28b0339540d6408a",
+        "sha256": "ea5d4fce25236e0b63c216c6f6ca5d7bba0facf9d9e66318616962659d8642ca",
         "size": 16777216
       },
       {
         "file": "bridge.z12",
-        "sha256": "79fbf21459026baf89a78db08e9b2b2a91c618894b9f93de5edb1de10b970bab",
+        "sha256": "242b137847d96c50457a5291bc4516734f3efefdc9d36986110404376ba7c244",
         "size": 16777216
       },
       {
         "file": "bridge.z13",
-        "sha256": "751800c0220e7d46c5d754cb1d3543d4dce1bce1bf5651c96f34fba53cde4276",
+        "sha256": "1c26db110f8fecd0fc9ca46813aa31d82f92e41a8339e93d4c8b5fb8e3749ef2",
         "size": 16777216
       },
       {
         "file": "bridge.z14",
-        "sha256": "dba7bb1e17de32fbc3de2fa7116142ad926d156c677a61467def2e7604369fb4",
+        "sha256": "358b4e64a2b632a375946d4a8d759fbf83dd1409a3504fcb0384b10d3c35633b",
         "size": 16777216
       },
       {
         "file": "bridge.z15",
-        "sha256": "a933ff1d0ed8447b31c67d17689a17c718f391625f2234ad110c4be726934e80",
+        "sha256": "99cfebd8de274ac13c9e86205cab810f680f9cc9be420235fca2df2a3c461b08",
         "size": 16777216
       },
       {
         "file": "bridge.z16",
-        "sha256": "e3db5cbf5c7b0ab9fe8c248997020df99532d66dc4aeabcd5b433a4a467b28c8",
+        "sha256": "8428b398894a4b3f21da072e7298d2e20dbc4db90589fd8ec9a498734b59349f",
         "size": 16777216
       },
       {
         "file": "bridge.z17",
-        "sha256": "20c5fe0c549bc8f0b0692d6713311c1cb9a26cdb46afd734d3cd67ae5a4e41dc",
+        "sha256": "0d4723538ec113e0ca1b96304cda7e525c8bf77a21c4b255ef9fb4423b41692a",
         "size": 16777216
       },
       {
         "file": "bridge.z18",
-        "sha256": "2c86bfcb53c3bb3aac8509bd0072b21be92fa82c2e0de9e51a6c112c410eeb17",
-        "size": 10324003
+        "sha256": "8d9c5cad7ebafdd9f95751afe4269d0fdf0b1fcb8f4fc086b979664bcde2c5fc",
+        "size": 16777216
+      },
+      {
+        "file": "bridge.z19",
+        "sha256": "54903eda1ff5af5426c646e6af47224ffce9d803c88e8535196c1ab76e1c7015",
+        "size": 751104
       }
     ]
   },
-  "sig": "MdYP9C+vIkzahkzNVedJ6kVlOASq8bcnb0YL3cAu7ROcLjUQUho1iRtZe2oG4J/RQcoYEYsaedTvkvNjeifWBQ=="
+  "sig": "v2I9UR0n/YkMiYnh/jU/CMz5YpVSRxUWmooaAV0zrLAsYV2VV/qdswTQ/5oeogoD7/f8w8un2Ff/NtMfxs2TCA=="
 }
