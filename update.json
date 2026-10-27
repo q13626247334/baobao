@@ -1,78 +1,78 @@
 {
-  "version": "5.1",
-  "notes": "修复「浏览并拆分」只体检不拆分的严重bug（4.8起新拆的书发不了文）；下载小人在全网书源阶段也会跑+动画重做；删前文大纲滑窗（改在智语里关联概要）；番茄发文按钮统一大小；新增批量拆书",
-  "sha256": "42ea1885144b191e4f5b9038609582211c25abc54ca9e8d851a4d25e5a1bbd56",
-  "size": 357395,
+  "version": "5.2",
+  "notes": "修复番茄榜单：官网榜单页改版导致只抓到几本或报失败，已改用新数据口（阅读榜+新书榜合并，热门约20本）；冷门题材官网本来就只有几本属正常",
+  "sha256": "2acf4ba507bb88d6dbfa423a72c680c96d52d4fb9103612c0496feac78b234ce",
+  "size": 340214,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "42ea1885144b191e4f5b9038609582211c25abc54ca9e8d851a4d25e5a1bbd56",
-      "size": 357395
+      "sha256": "2acf4ba507bb88d6dbfa423a72c680c96d52d4fb9103612c0496feac78b234ce",
+      "size": 340214
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "9651bb45012d331cce7f366300b83e182314c78dad8b28400882be67d12f10de",
-    "size": 12812229,
+    "sha256": "77f3200f901876b6244c2e64cb5ec7ed98ee07e56c4443bbf39308e2e9663f21",
+    "size": 12812884,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "9651bb45012d331cce7f366300b83e182314c78dad8b28400882be67d12f10de",
-        "size": 12812229
+        "sha256": "77f3200f901876b6244c2e64cb5ec7ed98ee07e56c4443bbf39308e2e9663f21",
+        "size": 12812884
       }
     ]
   },
   "min_version": "2.7.1",
   "bridge": {
-    "sha256": "b86c11a506dde7760b5609ea20201cff171ea76e55f6233e85974ccb2878d043",
-    "size": 147643722,
+    "sha256": "583a61a104d7d6c53aa361d5404c6c048b733e0dbc54bb9a10c5e4804ba2ee1f",
+    "size": 147653965,
     "parts": [
       {
         "file": "bridge.z01",
-        "sha256": "6e850acfafb401545a125ae7b42e831a30f041b3b0940e709ecde87ddbd11adb",
+        "sha256": "b62a96c42939709b26b32820237168164846a6f0c2f7f067462a218a7f0db8fe",
         "size": 16777216
       },
       {
         "file": "bridge.z02",
-        "sha256": "647848a525513e37c1e2cc3d1e8839953468d4018e9ff8cfbffe9337d8defcec",
+        "sha256": "2822ce8c2cbba6444086773613f2d43d6bec8e3b9ea1e758fb7f7095577b73c5",
         "size": 16777216
       },
       {
         "file": "bridge.z03",
-        "sha256": "4b881271b19c90c3d6d91a25da22c00909cd9f41ccc787970e83b05baf948ee8",
+        "sha256": "542bbd83d818f788162077ef059faea8ffa0a7eaa59627b2120385e0da3aef32",
         "size": 16777216
       },
       {
         "file": "bridge.z04",
-        "sha256": "09a1d72e100d79198c440372009b1c79a9f108ace0c1ea83d26e7e99860bae77",
+        "sha256": "2fd5e13e85d08bdc4ebda0ff9484d4fdc91bb8ca9ebdd573b722e17600a5c975",
         "size": 16777216
       },
       {
         "file": "bridge.z05",
-        "sha256": "7ed4ec171a4f9309e2435cf33af7b16413ef21c7bef2088813671dc0746c027b",
+        "sha256": "73c96e5985fc1569585d3582ad6ad951a5a208e6988e06d038a8bd089a13d265",
         "size": 16777216
       },
       {
         "file": "bridge.z06",
-        "sha256": "e4525f2eb3c07973d890cc4a431a4258b66b4d4ced7eed0a0bfab16b50048fa6",
+        "sha256": "b17d12129e295fdb92a3c2ca9388fdbc8c3ac3324ff6ed33fd25c894750bbbea",
         "size": 16777216
       },
       {
         "file": "bridge.z07",
-        "sha256": "29dac6640886fb39eb18e47bb24d5a2ef233fa6e2fd86921ecb082c540f2c2ac",
+        "sha256": "f6bb5a7fd814bfd6d298c40c18f57d51ea6b0a7f880f088b2318cba49638b08d",
         "size": 16777216
       },
       {
         "file": "bridge.z08",
-        "sha256": "d6fb863f45faf2788e984fb7443a007591b52eab995c47703044431b9e9a7334",
+        "sha256": "5e5614898e9c367b22bfd359f111c9565e5c9a4c301b39dbc7266c553f0cdfed",
         "size": 16777216
       },
       {
         "file": "bridge.z09",
-        "sha256": "9c2331bfa7b01fc15e5e58baa5c603b35292b4f15b92c978fda84f1115bdd950",
-        "size": 13425994
+        "sha256": "c30eb917b612e2ba56487baedbec89fc53b96c963258804a31e14f7e7109897f",
+        "size": 13436237
       }
     ]
   },
-  "sig": "Md8AoVLHW/uLPGnxmSyXi7lQ7rK2MT+8AGkt0RymD6LSmGC9kSRuItIj00KDVTVNoPIjpyFQCF/WuueMiOVwCg=="
+  "sig": "CzS74N7l0pngTVco2tD6OpafgjB1bvzLjKKI/F4b4QCRMocrX6leRFV1TAmyybe+4l4FDWqqVe5IyTXCXa9lAQ=="
 }
