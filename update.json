@@ -1,27 +1,97 @@
 {
-  "version": "5.7",
-  "notes": "【v5.7 重要更新】\n① 授权码在线校验：软件启动时自动核验授权状态，后台停用的授权码软件将无法打开（断网/翻墙不受影响，不会误伤正常学员）；\n② 激活自动登记：激活后自动登记到包包的授权管理后台，换机解绑、一键停用更方便；\n③ 编辑库大更新：升级到 753 位编辑——新增话本小说、掌阅、书旗、塔读、点众（长篇/中短篇/超短篇）、书山中文网（掌阅男频新家）、傻鱼等官网现役编辑的联系方式和收稿方向；移除失效邮箱；\n④ 界面优化：AI小助手悬浮球移到左下角不挡操作，投稿日志窗口加高，去掉多余的清空/收起按钮。",
-  "sha256": "475cb30cdc66d176f5138913445b5c77cf8adc50b6e11920b0605c5335b77c76",
-  "size": 1219735,
+  "version": "5.7.1",
+  "notes": "【v5.7.1 更新说明】\n本次修复：\n1. 投稿发邮件附件偶发丢失——以前附件文件失效时软件会一声不吭地发出不带附件的邮件，现在每一封都会明确警告并说明原因，再也不怕编辑收到裸信。\n2. 交流区评论/打赏防连点——手快点出多条重复评论、重复扣喵币的问题已根治（网站同步上线）。\n上次 v5.7 新增：\n1. 授权码在线校验：后台停用的码立即失效，被盗用的码不用换锁。\n2. 激活自动登记：后台能看到每个码装在哪台电脑上。\n3. 编辑库大更新：新增 75 位官网现役编辑（话本/掌阅/书旗/塔读/点众/书山/傻鱼）。",
+  "sha256": "8edf931628311fabff52db582725548bae14b07a0c34e8ff7edd5f0aeb733eda",
+  "size": 126356703,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "475cb30cdc66d176f5138913445b5c77cf8adc50b6e11920b0605c5335b77c76",
-      "size": 1219735
+      "sha256": "9a646e86a97264dfed9c5fac99de2926f2ecdcad4b20d1899383fe8de2805a6f",
+      "size": 16777216
+    },
+    {
+      "file": "update.z02",
+      "sha256": "4b8a9227d7e7991c8101948c044616055754408fb016d11f45ea2f8b3f29eda2",
+      "size": 16777216
+    },
+    {
+      "file": "update.z03",
+      "sha256": "cd87101db0fd53754da6c5bc6d1df128bf67147d8317ba1eee9c96f23c823817",
+      "size": 16777216
+    },
+    {
+      "file": "update.z04",
+      "sha256": "59ab1ad7ac6eead865b5a762aba1cc1bdd4d12e83c743048b07ec585048ae40e",
+      "size": 16777216
+    },
+    {
+      "file": "update.z05",
+      "sha256": "fb13ca0ad4c43720ddfd452a173d10f136749afe1b768a9620c1dcf757993617",
+      "size": 16777216
+    },
+    {
+      "file": "update.z06",
+      "sha256": "7af7fb1598271a3dfa1214029a896f06f60c84d32be674293fea66fa22a7161c",
+      "size": 16777216
+    },
+    {
+      "file": "update.z07",
+      "sha256": "a35fc89e5cac33d8c24317d95fbb88c1509f7b69756316e0eb65dbcf26b9532a",
+      "size": 16777216
+    },
+    {
+      "file": "update.z08",
+      "sha256": "2102e8a7818a0cd31c3eff7d57aa459defd3011beebfe349d2d29c2e945204cc",
+      "size": 8916191
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "27308f824c479a274b7c81efc5e6411b0972d663aacdd08f633a20dbeb59f496",
-    "size": 13647009,
+    "sha256": "8edf931628311fabff52db582725548bae14b07a0c34e8ff7edd5f0aeb733eda",
+    "size": 126356703,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "27308f824c479a274b7c81efc5e6411b0972d663aacdd08f633a20dbeb59f496",
-        "size": 13647009
+        "sha256": "9a646e86a97264dfed9c5fac99de2926f2ecdcad4b20d1899383fe8de2805a6f",
+        "size": 16777216
+      },
+      {
+        "file": "full.z02",
+        "sha256": "4b8a9227d7e7991c8101948c044616055754408fb016d11f45ea2f8b3f29eda2",
+        "size": 16777216
+      },
+      {
+        "file": "full.z03",
+        "sha256": "cd87101db0fd53754da6c5bc6d1df128bf67147d8317ba1eee9c96f23c823817",
+        "size": 16777216
+      },
+      {
+        "file": "full.z04",
+        "sha256": "59ab1ad7ac6eead865b5a762aba1cc1bdd4d12e83c743048b07ec585048ae40e",
+        "size": 16777216
+      },
+      {
+        "file": "full.z05",
+        "sha256": "fb13ca0ad4c43720ddfd452a173d10f136749afe1b768a9620c1dcf757993617",
+        "size": 16777216
+      },
+      {
+        "file": "full.z06",
+        "sha256": "7af7fb1598271a3dfa1214029a896f06f60c84d32be674293fea66fa22a7161c",
+        "size": 16777216
+      },
+      {
+        "file": "full.z07",
+        "sha256": "a35fc89e5cac33d8c24317d95fbb88c1509f7b69756316e0eb65dbcf26b9532a",
+        "size": 16777216
+      },
+      {
+        "file": "full.z08",
+        "sha256": "2102e8a7818a0cd31c3eff7d57aa459defd3011beebfe349d2d29c2e945204cc",
+        "size": 8916191
       }
     ]
   },
   "min_version": "2.7.1",
-  "sig": "u3m/HaN0l3PVlmngrRj3aCYlZIRhMnG0dkyIpPDuLTzlFiF4xFUjokKD9L60tk/3zAmesanOPBp+oN2XGFRbDw=="
+  "sig": "4E/1FW9EbOy7+PS+6z+lBKFZmOwNromfRxwlUgNYZUQ9X3Wmoka8cO2uPSQ4VDbTejNXMZ/zr9bYcMLs4/PDDg=="
 }
