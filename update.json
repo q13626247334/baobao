@@ -1,78 +1,27 @@
 {
-  "version": "5.6",
-  "notes": "新增「写完一章自动概要+关联」：每章跑完自动生成本章概要并点替换，再给下一章自动勾选手选章节——内容最近N章+概要再往前M章滑动窗口（当前章永远不勾，开头章数不够只勾内容），共同设置里可开关和调章数；批量拆书移到共同设置，跟随最近点「打开智语」的那台跑（主号开的用主号、小号开的用小号）；批量拆书新增提示词安全校验（只认软件自带的提示词）；修复番茄榜单新书榜/阅读榜标签对调、不再错误合并两个榜",
-  "sha256": "b0c4253881a089d8ec509ff6ac6c73082ac0d1bfa896c982f1380f596d4b84b0",
-  "size": 326282,
+  "version": "5.7",
+  "notes": "【v5.7 重要更新】\n① 授权码在线校验：软件启动时自动核验授权状态，后台停用的授权码软件将无法打开（断网/翻墙不受影响，不会误伤正常学员）；\n② 激活自动登记：激活后自动登记到包包的授权管理后台，换机解绑、一键停用更方便；\n③ 编辑库大更新：升级到 753 位编辑——新增话本小说、掌阅、书旗、塔读、点众（长篇/中短篇/超短篇）、书山中文网（掌阅男频新家）、傻鱼等官网现役编辑的联系方式和收稿方向；移除失效邮箱；\n④ 界面优化：AI小助手悬浮球移到左下角不挡操作，投稿日志窗口加高，去掉多余的清空/收起按钮。",
+  "sha256": "475cb30cdc66d176f5138913445b5c77cf8adc50b6e11920b0605c5335b77c76",
+  "size": 1219735,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "b0c4253881a089d8ec509ff6ac6c73082ac0d1bfa896c982f1380f596d4b84b0",
-      "size": 326282
+      "sha256": "475cb30cdc66d176f5138913445b5c77cf8adc50b6e11920b0605c5335b77c76",
+      "size": 1219735
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "c7449b07be75b49404e6d6649d0bcc0577dcfae892189917918d19723080662d",
-    "size": 12816808,
+    "sha256": "27308f824c479a274b7c81efc5e6411b0972d663aacdd08f633a20dbeb59f496",
+    "size": 13647009,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "c7449b07be75b49404e6d6649d0bcc0577dcfae892189917918d19723080662d",
-        "size": 12816808
+        "sha256": "27308f824c479a274b7c81efc5e6411b0972d663aacdd08f633a20dbeb59f496",
+        "size": 13647009
       }
     ]
   },
   "min_version": "2.7.1",
-  "bridge": {
-    "sha256": "a92570157795d9861b4b90f0cb19cefd735d261ff94c5e0f07624e4a1e8440de",
-    "size": 147654523,
-    "parts": [
-      {
-        "file": "bridge.z01",
-        "sha256": "6afba547ce8f67b4d66bb4d3e663fa31384008cff8a133646b09507f4768110f",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z02",
-        "sha256": "f06de939e211aba1edff7ed11496ae2556de1bfd76b3ae54b8020fe2b0d806d7",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z03",
-        "sha256": "626d25805b52b394c20c557a6c5c4c4c9569942170c9658251231d390b48ac30",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z04",
-        "sha256": "d9966c7ba653632123cc95977eeaaf399784e9be94e2f21b3d1a80218b96fed6",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z05",
-        "sha256": "7cac1db69341329f647a1788b277638fe912f8c10a77d85637a1b669642346e6",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z06",
-        "sha256": "4bfe028e7ff1325f0fdcd912f5a3098823d5d330c8e281969ef982aecff63441",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z07",
-        "sha256": "a64f89dbacdae4a05962f93dd4e692340c8fff5c3def56918eafc49b874ea485",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z08",
-        "sha256": "22afeecdce858461d19c34d7f23607986af85ce4620bc584622cf2ebca74e7b5",
-        "size": 16777216
-      },
-      {
-        "file": "bridge.z09",
-        "sha256": "6563aba3958c15b034d9dce639b8149e370b64b36b53493073644e78a8c8a087",
-        "size": 13436795
-      }
-    ]
-  },
-  "sig": "/PbbiVhpkRD1MDH4ZXSsuHG3+lbGn0BLpxdQZInxAPvfYRcxNIAfa3sH9HgnWEaq2uT7vaADN8RkkD7yCricBQ=="
+  "sig": "u3m/HaN0l3PVlmngrRj3aCYlZIRhMnG0dkyIpPDuLTzlFiF4xFUjokKD9L60tk/3zAmesanOPBp+oN2XGFRbDw=="
 }
