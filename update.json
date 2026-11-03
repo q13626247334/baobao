@@ -1,48 +1,13 @@
 {
   "version": "5.7.1",
   "notes": "【v5.7.1 更新说明】\n本次修复：\n1. 投稿发邮件附件偶发丢失——以前附件文件失效时软件会一声不吭地发出不带附件的邮件，现在每一封都会明确警告并说明原因，再也不怕编辑收到裸信。\n2. 交流区评论/打赏防连点——手快点出多条重复评论、重复扣喵币的问题已根治（网站同步上线）。\n上次 v5.7 新增：\n1. 授权码在线校验：后台停用的码立即失效，被盗用的码不用换锁。\n2. 激活自动登记：后台能看到每个码装在哪台电脑上。\n3. 编辑库大更新：新增 75 位官网现役编辑（话本/掌阅/书旗/塔读/点众/书山/傻鱼）。",
-  "sha256": "8edf931628311fabff52db582725548bae14b07a0c34e8ff7edd5f0aeb733eda",
-  "size": 126356703,
+  "sha256": "928bb6f44685893ab8c20e6899e012e392a7c834b86bdf97b59a336a50bd767d",
+  "size": 27929,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "9a646e86a97264dfed9c5fac99de2926f2ecdcad4b20d1899383fe8de2805a6f",
-      "size": 16777216
-    },
-    {
-      "file": "update.z02",
-      "sha256": "4b8a9227d7e7991c8101948c044616055754408fb016d11f45ea2f8b3f29eda2",
-      "size": 16777216
-    },
-    {
-      "file": "update.z03",
-      "sha256": "cd87101db0fd53754da6c5bc6d1df128bf67147d8317ba1eee9c96f23c823817",
-      "size": 16777216
-    },
-    {
-      "file": "update.z04",
-      "sha256": "59ab1ad7ac6eead865b5a762aba1cc1bdd4d12e83c743048b07ec585048ae40e",
-      "size": 16777216
-    },
-    {
-      "file": "update.z05",
-      "sha256": "fb13ca0ad4c43720ddfd452a173d10f136749afe1b768a9620c1dcf757993617",
-      "size": 16777216
-    },
-    {
-      "file": "update.z06",
-      "sha256": "7af7fb1598271a3dfa1214029a896f06f60c84d32be674293fea66fa22a7161c",
-      "size": 16777216
-    },
-    {
-      "file": "update.z07",
-      "sha256": "a35fc89e5cac33d8c24317d95fbb88c1509f7b69756316e0eb65dbcf26b9532a",
-      "size": 16777216
-    },
-    {
-      "file": "update.z08",
-      "sha256": "2102e8a7818a0cd31c3eff7d57aa459defd3011beebfe349d2d29c2e945204cc",
-      "size": 8916191
+      "sha256": "928bb6f44685893ab8c20e6899e012e392a7c834b86bdf97b59a336a50bd767d",
+      "size": 27929
     }
   ],
   "removed": [],
@@ -93,5 +58,5 @@
     ]
   },
   "min_version": "2.7.1",
-  "sig": "4E/1FW9EbOy7+PS+6z+lBKFZmOwNromfRxwlUgNYZUQ9X3Wmoka8cO2uPSQ4VDbTejNXMZ/zr9bYcMLs4/PDDg=="
+  "sig": "hsTtdPxMRT7OA/Bx/xNne2PehYJtBjrWol31dMxRG94kcifQkO0WKvw7d5liAjGfRMFN+oq8TC1oXfVIuG5SBQ=="
 }
