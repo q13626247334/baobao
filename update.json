@@ -1,19 +1,19 @@
 {
-  "version": "5.7.2",
-  "notes": "【v5.7.2 更新说明】\n本次修复：\n1. 新装用户投稿页「编辑邮箱」显示为空的严重问题——编辑库数据格式错了，打开软件看不到编辑。现在打开就有全部 753 位编辑。\n2. 老用户编辑库自动补全最新数据，并自动清理已删除的退信邮箱。\n上次 v5.7.1 修复：投稿发邮件附件偶发丢失（每封明确警告）+ 交流区评论/打赏防连点。",
-  "sha256": "c962910d7a8dc20bf73b42b1a8629efa12242a5b40bbd35e2d4f34b95285424f",
-  "size": 34769,
+  "version": "5.7.3",
+  "notes": "【v5.7.3 更新日志】\n编辑库更新（现共752位，投稿页直接可用）：\n1. 76位编辑补充投稿邮箱（话本/点众/塔读/书旗/掌阅/书山/傻鱼等平台，按官网征稿信息核验），现在全部编辑都有邮箱可直接投稿。\n2. 修正点众「桃夭」的QQ号（官网更正为3782495362）。\n3. 修正「花婵」平台归属：花婵是掌阅主编，此前误标为书旗，已更正。\n4. 合并书旗「木鹿」重复条目；补充书旗三组主编「苍龙」（官网征文页现役）。\n【v5.7.2 修复】新装用户编辑邮箱显示为空的问题。\n【v5.7.1 修复】投稿邮件附件偶发丢失；交流区评论/打赏防连点。",
+  "sha256": "f774ad9014b280f8b39aebb08a3dd0dd971205071fcd28c568d0801c6e57513e",
+  "size": 35100,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "c962910d7a8dc20bf73b42b1a8629efa12242a5b40bbd35e2d4f34b95285424f",
-      "size": 34769
+      "sha256": "f774ad9014b280f8b39aebb08a3dd0dd971205071fcd28c568d0801c6e57513e",
+      "size": 35100
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "e5e58aa7d155093ed8b7daa2c60577c05bc701ce4f7f4b4c2ccbc2a8129caa98",
-    "size": 126351882,
+    "sha256": "ce84631a42bc5be2a960571d5d999a141d0953c7ca599151aed8c233276da2ff",
+    "size": 126352213,
     "parts": [
       {
         "file": "full.z01",
@@ -22,41 +22,41 @@
       },
       {
         "file": "full.z02",
-        "sha256": "6ef2cffdd469e2343eb3f28d9abd7d94cbf185b2e0cc78e81af574a69acdc372",
+        "sha256": "ee07d81617937ceeff6f93ae0317398917723ee7fe17dc0c18a519ffe39e7b7d",
         "size": 16777216
       },
       {
         "file": "full.z03",
-        "sha256": "6b1dcc0543ea0b73a8fa4ba3d2f23332575eefb06a72bee463b7f40efbde42bb",
+        "sha256": "db20998f527126769b9011f05797b1b8a19545b03fe17ee7192a905464f3a603",
         "size": 16777216
       },
       {
         "file": "full.z04",
-        "sha256": "411fc0b1077ad263d6563fc216303b25bfac14fcd91c14d242a5d7d39c4d5ac8",
+        "sha256": "46cec7c403daafdef74f173ef4d3a61d80f0863d76d604e32d9929c42c1d81d3",
         "size": 16777216
       },
       {
         "file": "full.z05",
-        "sha256": "ff07f8477bc91c5792e258de1ff7a3be11ac961eb727f1b25cc1ca492b79db0f",
+        "sha256": "bce99362221d0e2faa3dd980026693a93ad58ce4dabb331798854d54e9de2c20",
         "size": 16777216
       },
       {
         "file": "full.z06",
-        "sha256": "fc9b9dfcef4194ccb7940383041796353c6a7ecd48955c5479fe6cb818b28cc4",
+        "sha256": "458bb3d75448b32234a16c90745bbd619e72bef5bdcc05ba8a0e9182e33f75c1",
         "size": 16777216
       },
       {
         "file": "full.z07",
-        "sha256": "d073aa68bf504375ec1b9a3afe8b398a100e5e0ff979ee5fcdf3bd70495c3194",
+        "sha256": "5cf1e6c64e5dd9e80ad33762d1779597691b326acbf350a893feab0997b0d4d3",
         "size": 16777216
       },
       {
         "file": "full.z08",
-        "sha256": "8a2a95735affd2f1d19bd291cec1ac77701c584595574f202b28f50577f8839d",
-        "size": 8911370
+        "sha256": "da6fe143c1b28d5bc9e2b99a5d6e48e8f18c16443b943a874c05fa0ed03b35af",
+        "size": 8911701
       }
     ]
   },
   "min_version": "2.7.1",
-  "sig": "c8OnbcpClb6EeawCh9qZuoVn5iHBgPLGMq9QjVvjDzUTiecfHjOdFZtjLwtf2Q2C577l0ZvCK0YiGL+qCK4sBA=="
+  "sig": "Cm9WAyj5tc6E+lD0kM+tarSYm20sCMfip/++YEp/ihYk9Wj86o3VINrsl9T1AApCvq7Ol7bch8L0X24u669VBQ=="
 }
