@@ -1,59 +1,24 @@
 {
-  "version": "5.7.4",
-  "notes": "🎀 包包AI写作助手 v5.7.4 更新啦 🎀\n\n【修复 · 重点】\n1. 投稿发送一直失败？很多人把邮箱地址填进了「SMTP服务器」框——新版自动纠错，填错也能一键改对，不用再一个个问\n2. 投稿页新增「📖 授权码怎么获取？」图文教程按钮，QQ邮箱/163邮箱一步步教\n3. 番茄小助手：连续搜第二本书永远卡住的问题修了；搜到改名的书会自动提示新名字；有声书会明确提示搜文字版\n4. 番茄榜单乱码修复\n\n【新功能】\n5. 审稿模式（设置里开启，默认关）：跑完一章自动过审稿提示词，开头/结尾/字数六道闸验收，AI 乱改自动回退\n6. 皇叔流程无限重试：生成失败/智语中途自停都自动重试，开一晚也能一直干活，不停车\n7. 「全文完」暗号机制：AI 断章自动识别重新生成，绝不让半截文进书\n\n【更新机制升级】\n8. 更新下载走网站首选源，更快更稳；更新失败下次启动自动弹窗说明原因\n9. 点了「稍后更新」不再丢包，退出软件自动安装新版\n\n【界面】\n10. 搜索/下载时的任务提醒改成顶部悬浮胶囊，不再顶跳页面（闪屏修复）\n11. AI 小助手悬浮球移到左侧菜单栏，不再挡按钮",
-  "sha256": "3eb47869648c5346df1f174ea0d01bc26069df5e8ffd8f5c6c476897a9d5c0d3",
-  "size": 224409,
+  "version": "5.7.5",
+  "notes": "收信邮箱留空时自动用第一个发件邮箱兜底——修复「自动回复一直是0」（填了授权码漏填邮箱账号也不怕了）\n智语自动跑：找不到章节关联按钮时自动切换到「选择章节关联」页签，再试一次\n设置页收信检测加了说明文字",
+  "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
+  "size": 13654353,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "3eb47869648c5346df1f174ea0d01bc26069df5e8ffd8f5c6c476897a9d5c0d3",
-      "size": 224409
+      "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
+      "size": 13654353
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "f31200c7dda9c70d026a914f52c392964929072487f518cb61ba237eacc080e0",
-    "size": 126362728,
+    "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
+    "size": 13654353,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "9a646e86a97264dfed9c5fac99de2926f2ecdcad4b20d1899383fe8de2805a6f",
-        "size": 16777216
-      },
-      {
-        "file": "full.z02",
-        "sha256": "bad56265e9ca3eb8a4fc4a0459f27a588ce5ae4b9784b455990abf945c0a14b7",
-        "size": 16777216
-      },
-      {
-        "file": "full.z03",
-        "sha256": "31a5e8d040d0ad0973e6fbfcb8f6f4facccdb0eac06f7c4c802a42071c2de7ed",
-        "size": 16777216
-      },
-      {
-        "file": "full.z04",
-        "sha256": "6f37021845ed27db41fd7b284b411bc938c4bb0eca0241366c718efd231546e3",
-        "size": 16777216
-      },
-      {
-        "file": "full.z05",
-        "sha256": "72c40ce68e448d77a07f0e6d6a54d14b1a822afa15007209754d8f84e0faaec1",
-        "size": 16777216
-      },
-      {
-        "file": "full.z06",
-        "sha256": "bf940d91a7a4dd547a7022ec3043cd58e3fd9db369cd4e7e9d613995a539efab",
-        "size": 16777216
-      },
-      {
-        "file": "full.z07",
-        "sha256": "44f28276805cf055fd97c64dfd598aa9b254dfb81fff8226c1c804c2a58d0d69",
-        "size": 16777216
-      },
-      {
-        "file": "full.z08",
-        "sha256": "6e9299aa2949de59aa16daad8fb8ffa828b905f34f270652850c1e010b4604ce",
-        "size": 8922216
+        "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
+        "size": 13654353
       }
     ]
   },
@@ -214,5 +179,5 @@
       }
     ]
   },
-  "sig": "Q3+nM5nNHDElGZTXIgd3ymbR6EYDTBSnrowyyFLSMSuNQxJMTU9OpbuYzqbD3Z9YbbhPYWRSC0VjH9s9vuU6CQ=="
+  "sig": "UF6PSxYKevFTPFoKzHL8e6CQlgdJ9rsxL0yse6NljEbQ4f9MqIPHKnHVl0ruNCaTQ9cLThDNMrJswUuOXlJCDQ=="
 }
