@@ -1,24 +1,24 @@
 {
   "version": "5.7.5",
   "notes": "收信邮箱留空时自动用第一个发件邮箱兜底——修复「自动回复一直是0」（填了授权码漏填邮箱账号也不怕了）\n智语自动跑：找不到章节关联按钮时自动切换到「选择章节关联」页签，再试一次\n设置页收信检测加了说明文字",
-  "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
-  "size": 13654353,
+  "sha256": "57ab6f3ef56c884a969858a03881b04bf376ef2a103e415686d7685bc2379e09",
+  "size": 13654352,
   "parts": [
     {
       "file": "update.z01",
-      "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
-      "size": 13654353
+      "sha256": "57ab6f3ef56c884a969858a03881b04bf376ef2a103e415686d7685bc2379e09",
+      "size": 13654352
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
-    "size": 13654353,
+    "sha256": "57ab6f3ef56c884a969858a03881b04bf376ef2a103e415686d7685bc2379e09",
+    "size": 13654352,
     "parts": [
       {
         "file": "full.z01",
-        "sha256": "75fef685bac40cc3a1b44c2052c1734c2bfcb50cb9df7f0b1824a5de772136e0",
-        "size": 13654353
+        "sha256": "57ab6f3ef56c884a969858a03881b04bf376ef2a103e415686d7685bc2379e09",
+        "size": 13654352
       }
     ]
   },
@@ -179,5 +179,5 @@
       }
     ]
   },
-  "sig": "UF6PSxYKevFTPFoKzHL8e6CQlgdJ9rsxL0yse6NljEbQ4f9MqIPHKnHVl0ruNCaTQ9cLThDNMrJswUuOXlJCDQ=="
+  "sig": "U8X9gjlpUF1cMKJJwKOVNOQT8z1ewwPZCH8JgaOviTi6D+Lrhk436O+ww6lcPiBgnV1ilSp2d0A6nXeADRZxBA=="
 }
