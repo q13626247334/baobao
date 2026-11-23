@@ -1,29 +1,29 @@
 {
-  "version": "5.9.5",
-  "notes": "【v5.9.5 复制前三章不再下载整本】\n\n① 小说下载页选「复制前 3 章」：改成和榜单「复制前三章」完全一样，点一下直接复制三章到剪贴板、去智语粘贴即可。以前会后台抓完整本书、往「包包写作小说下载」文件夹存 TXT，又慢又占地方，现在不抓整本、不存文件。\n\n② 下载全本、按章节范围照旧，仍会保存 TXT 到设定文件夹，不受影响。\n\nsite 写作情报改为登录后可看（网站部分，随版本发布一并上线）。\n\n使用：解压到任意文件夹，双击「包包AI写作助手.exe」。装好后用同一授权码在软件内激活，一码一机、永久有效。\n校验：下载完可比对文件 SHA-256（见下载页）。\n⚠ 升级后请从托盘右键「完全退出」再重新打开软件，新功能才会生效。",
-  "sha256": "fe3516934f8d000c413b3d73585a3b8079d44b59daf3cc04e21eb153f22f3c7f",
-  "size": 14036172,
+  "version": "5.9.6",
+  "notes": "5.9.6 更新说明\n1. 修复批量拆书：每批只拆10章/15章时，章号连续性校验改为按用户所选章数动态读取，缺章/乱章自动重试，不再落盘错误大纲。\n2. 修复拆书章号识别：修正章节标题正则，中文数字章号（第一百二十一章）与换行分隔标题均可正确识别校验。\n使用：解压到任意文件夹，双击「包包AI写作助手.exe」。装好后用同一授权码在软件内激活，一码一机、永久有效。\n升级后请从托盘右键「完全退出」再重新打开软件，新功能才会生效。",
+  "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
+  "size": 14036661,
   "parts": [
     {
-      "file": "update_595.z01",
-      "sha256": "fe3516934f8d000c413b3d73585a3b8079d44b59daf3cc04e21eb153f22f3c7f",
-      "size": 14036172
+      "file": "update_596.z01",
+      "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
+      "size": 14036661
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "fe3516934f8d000c413b3d73585a3b8079d44b59daf3cc04e21eb153f22f3c7f",
-    "size": 14036172,
+    "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
+    "size": 14036661,
     "parts": [
       {
-        "file": "full_595.z01",
-        "sha256": "fe3516934f8d000c413b3d73585a3b8079d44b59daf3cc04e21eb153f22f3c7f",
-        "size": 14036172
+        "file": "full_596.z01",
+        "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
+        "size": 14036661
       }
     ]
   },
   "min_version": "2.7.1",
-  "sig": "xoGeZFbhmwOgcaOFBDfuz3lgAa7mVGbdFVzvSB1gkben58MRmCcyOU6ZD7/0gDBQpfgbci8CalVSs0foh06JCg==",
+  "sig": "4bz13mzfJBIShJTsmwJjXG+tPkFt+eXdbF3FXGR5DEGOZX1NVW+S8z1boHrtipVkx1f0knToH5YhMH08NmGbBA==",
   "bridge": {
     "sha256": "96e72d94751d5d30d1085bcfe5c8a0b4227f2d89be680ee5f796f39aaa5f8a94",
     "size": 143047289,
