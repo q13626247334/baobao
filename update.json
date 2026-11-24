@@ -1,78 +1,78 @@
 {
-  "version": "5.9.6",
-  "notes": "5.9.6 更新说明\n1. 修复批量拆书：每批只拆10章/15章时，章号连续性校验改为按用户所选章数动态读取，缺章/乱章自动重试，不再落盘错误大纲。\n2. 修复拆书章号识别：修正章节标题正则，中文数字章号（第一百二十一章）与换行分隔标题均可正确识别校验。\n使用：解压到任意文件夹，双击「包包AI写作助手.exe」。装好后用同一授权码在软件内激活，一码一机、永久有效。\n升级后请从托盘右键「完全退出」再重新打开软件，新功能才会生效。",
-  "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
-  "size": 14036661,
+  "version": "5.9.7",
+  "notes": "5.9.7 更新说明\n1. 修复\"自动点开概要\"失效：软件找\"切换概要\"按钮时误点成旁边的\"章节概要操作\"批量按钮，导致概要面板打不开、跑章卡住。现在会准确点开概要面板，自动关联概要更省积分。\n2. 修复全网搜书引擎解压失败（WinError 5 拒绝访问）：新版桥接会在引擎目录被占用时自动结束残留进程、换个位置重装并记住位置，全程无需手动找目录/杀进程/关杀软。搜书报 500 的学员升级后再点一次搜书即可自动恢复。\n使用：解压到任意文件夹，双击「包包AI写作助手.exe」。装好后用同一授权码在软件内激活，一码一机、永久有效。\n升级后请从托盘右键「完全退出」再重新打开软件，新功能才会生效。",
+  "sha256": "cba6ebb99d18b409bb3ec4779e04a427a16dc664e16780acfb0e6780b02d332d",
+  "size": 14036673,
   "parts": [
     {
-      "file": "update_596.z01",
-      "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
-      "size": 14036661
+      "file": "update_597.z01",
+      "sha256": "cba6ebb99d18b409bb3ec4779e04a427a16dc664e16780acfb0e6780b02d332d",
+      "size": 14036673
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
-    "size": 14036661,
+    "sha256": "cba6ebb99d18b409bb3ec4779e04a427a16dc664e16780acfb0e6780b02d332d",
+    "size": 14036673,
     "parts": [
       {
-        "file": "full_596.z01",
-        "sha256": "fa2d6584da77184a2a57db316ccd72d31d099bf1b812c5ad1d1b02e904bc806e",
-        "size": 14036661
+        "file": "full_597.z01",
+        "sha256": "cba6ebb99d18b409bb3ec4779e04a427a16dc664e16780acfb0e6780b02d332d",
+        "size": 14036673
       }
     ]
   },
   "min_version": "2.7.1",
-  "sig": "4bz13mzfJBIShJTsmwJjXG+tPkFt+eXdbF3FXGR5DEGOZX1NVW+S8z1boHrtipVkx1f0knToH5YhMH08NmGbBA==",
   "bridge": {
-    "sha256": "96e72d94751d5d30d1085bcfe5c8a0b4227f2d89be680ee5f796f39aaa5f8a94",
-    "size": 143047289,
+    "sha256": "af701d3ab1a63df43f4948003bd238e193c398377832ff37a161867d7f9776d4",
+    "size": 143051324,
     "parts": [
       {
-        "file": "bridge_591.z01",
+        "file": "bridge_597.z01",
         "sha256": "bca3e3cd70f9196e4abc96af7138cdabbd0cf3dd849f4109a1b64528a49aa6d5",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z02",
+        "file": "bridge_597.z02",
         "sha256": "0fd277cf91f73d1d3c5fcde22f55897c8a5583e8d7717ee4a2d8b9b37fcfc412",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z03",
-        "sha256": "2e402d4cea05c1e22a5d73b1947b83f12e7f30a27c4e7524d9843c578e091d1a",
+        "file": "bridge_597.z03",
+        "sha256": "32464c71754d3ed8bfcd0cca397f806648840f18a26d2472dedd9a5073e5d69c",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z04",
-        "sha256": "bb1ac77dd0e7cd6dae6b77599a71188919a9f35d2889133181c7c839cd24e9eb",
+        "file": "bridge_597.z04",
+        "sha256": "83b2f8c88604d64459b03ba7f069e4576b01e49e5e63193e2a98bcd3eb4c1364",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z05",
-        "sha256": "6ebe233eb5fc773e0a184b24780c0bb2d3fefb9d799779905f3e8a26535e8ea5",
+        "file": "bridge_597.z05",
+        "sha256": "2684b5eda99b623913fa69418356caded993515c32d3c70e3b090b5bd6731670",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z06",
-        "sha256": "e71aeb49c98630b254cb42080fc35f84c6864faa368f8305d89b16bcd5d3a003",
+        "file": "bridge_597.z06",
+        "sha256": "8c614737c55d8ffb50d8ffa2cb91b1491fb66022e572b67de88b73684a43de87",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z07",
-        "sha256": "59c18c742c6bbf5bda84d266b5b2f08d0df52d3f83603a5d11bcae1a551fc0e1",
+        "file": "bridge_597.z07",
+        "sha256": "352d11295724c557e2db78fe6fef9b1c2e4b12095e328b7365f397345425b069",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z08",
-        "sha256": "4a87fa9e76fecc52a3e6e45b571ee68ce6052d7e69e99b15d0947ea53b499d1e",
+        "file": "bridge_597.z08",
+        "sha256": "dcc15ec067b107a9935e8be4ebb7929eb904ff3c1b5ea504224417e1388720a6",
         "size": 16777216
       },
       {
-        "file": "bridge_591.z09",
-        "sha256": "d3d08ccba7babc0c9a1c992192af1a02b699cd5e72d35ab8f71526f0661fdb92",
-        "size": 8829561
+        "file": "bridge_597.z09",
+        "sha256": "9ab806d91e1e71188257b795fb24ecbfd5d7248d3c8267c6f580e019dee8f9e3",
+        "size": 8833596
       }
     ]
-  }
+  },
+  "sig": "xBnA5bTq4WrhdwPAXPJDEIRaWswzFy8/nkcNeSiRZ6670thMDmFcbTGwQW/Uo2Pc8HdBGnyjW9LCOeEIKfeQBA=="
 }
