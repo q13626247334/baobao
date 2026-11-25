@@ -1,28 +1,29 @@
 {
-  "version": "5.9.9",
-  "notes": "5.9.9 更新\n1. 完本模式现在支持「从第几章重发」：在发文页填「从 第几章 / 到 第几章」，点完本即只重发这一段（适合中间发错、删掉后面要重发的情况），「到」留空发到末章；发完自动清空范围，不会误重发。没填范围仍整本发。\n2. 中途失败用同一范围重跑会接着补发，不会把已重发章节再发一遍造成顺序错乱。\n3. 完本确认弹窗新增范围用法说明，并修掉「章章」重复显示。\n4. 延续 5.9.8：重建书籍/完本发完自动归档进度，「清除数据」清干净按书进度。",
-  "sha256": "72ec8ecd265b66ed11e464cf7d9e0515fd47be2c9d02b5807541d1b68e9d11d4",
-  "size": 14036854,
+  "version": "6.0",
+  "notes": "6.0 更新\n1. 修复皇叔流程「切换后一章」偶发点成「切换后二章/三章/五章」，导致对标书剧情逐章错位的问题。点击前先核对真实命中的按钮，位置不对就不盲点并自动重定位。\n2. 切换后新增关联章节数核对：正常应只有 1 章；检测到一次关联 2 章及以上会立即停止并提示重跑本章，绝不带着错误继续生成，也不会自动删除你的关联章节。\n3. 日志改为记录实际关联章数和章号，方便排查；读不到界面时只跳过附加核对，不误拦正常写作。",
+  "sha256": "88d9d84e93b22505f82d50055dcdeaf5e100d9fd406c7389f79aabd677bb1c9e",
+  "size": 14037737,
   "parts": [
     {
-      "file": "update_599.z01",
-      "sha256": "72ec8ecd265b66ed11e464cf7d9e0515fd47be2c9d02b5807541d1b68e9d11d4",
-      "size": 14036854
+      "file": "update_600.z01",
+      "sha256": "88d9d84e93b22505f82d50055dcdeaf5e100d9fd406c7389f79aabd677bb1c9e",
+      "size": 14037737
     }
   ],
   "removed": [],
   "full": {
-    "sha256": "72ec8ecd265b66ed11e464cf7d9e0515fd47be2c9d02b5807541d1b68e9d11d4",
-    "size": 14036854,
+    "sha256": "88d9d84e93b22505f82d50055dcdeaf5e100d9fd406c7389f79aabd677bb1c9e",
+    "size": 14037737,
     "parts": [
       {
-        "file": "full_599.z01",
-        "sha256": "72ec8ecd265b66ed11e464cf7d9e0515fd47be2c9d02b5807541d1b68e9d11d4",
-        "size": 14036854
+        "file": "full_600.z01",
+        "sha256": "88d9d84e93b22505f82d50055dcdeaf5e100d9fd406c7389f79aabd677bb1c9e",
+        "size": 14037737
       }
     ]
   },
   "min_version": "2.7.1",
+  "sig": "q2Yx+XUhytwom+uQ/FjIqePpZVK7nRP5sO1gy8UYIkDeDhMQSEUfI4ECyeN36wkjpoa61DymhNX/wkNfu8VMBQ==",
   "bridge": {
     "sha256": "6f91366477346d459fb0155d14de15780433a2ddd98d559b1cb8c5e55d36259f",
     "size": 147528876,
@@ -73,6 +74,5 @@
         "size": 13311148
       }
     ]
-  },
-  "sig": "nTO/c3j3euRIMddUCXFXYowL4x8haH50W4Zg6pyveDZXek+/A7r8bWVvdFW68hmpFHeDJ6c7qe4HrVEITsaWBg=="
+  }
 }
